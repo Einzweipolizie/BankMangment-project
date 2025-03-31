@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
+      <FILENAME>Logintests.c</FILENAME>
+      <LINE>104</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'rename'.</DESCRIPTION>
+    <FUNCTION>TestLogin</FUNCTION>
+    <DECORATED>TestLogin</DECORATED>
+    <FUNCLINE>25</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

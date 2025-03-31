@@ -1,0 +1,138 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'strcmp'."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/moneyoperations/transactiontests.c"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/TransactionTests.c"
+                },
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 2,
+                  "endLine": 65,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AcountTest",
+                  "decoratedName": "AcountTest",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'strcmp'."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/moneyoperations/transactiontests.c"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/TransactionTests.c"
+                },
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 2,
+                  "endLine": 66,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AcountTest",
+                  "decoratedName": "AcountTest",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'strcmp'."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/moneyoperations/transactiontests.c"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/TransactionTests.c"
+                },
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 2,
+                  "endLine": 85,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AcountTest",
+                  "decoratedName": "AcountTest",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.42.34436.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/moneyoperations/transactiontests.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "86caeec7b063e81b96a768bf9c55039792100d4f89f7e315414fd99f51eeee67"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/moneyoperations/moenyoperation.h"
+          },
+          "hashes": {
+            "sha-256": "abfe962144176b72805c3d1e1b259dcef0ce0165604c79de0b4920a846f4cc85"
+          }
+        }
+      ]
+    }
+  ]
+}

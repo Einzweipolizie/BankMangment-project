@@ -1,0 +1,171 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6271",
+          "message": {
+            "text": "Extra argument passed to 'scanf_s'."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/menu/startingmenu.c"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/Menu/StartingMenu.c"
+                },
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 2,
+                  "endLine": 39,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "starter_menu",
+                  "decoratedName": "starter_menu",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'getchar'."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/menu/startingmenu.c"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/Menu/StartingMenu.c"
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "starter_menu",
+                  "decoratedName": "starter_menu",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'getchar'."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/menu/startingmenu.c"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/Menu/StartingMenu.c"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "starter_menu",
+                  "decoratedName": "starter_menu",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'getchar'."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/menu/startingmenu.c"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/Menu/StartingMenu.c"
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "starter_menu",
+                  "decoratedName": "starter_menu",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.42.34436.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/menu/startingmenu.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "0e4da7e69d30087804691b5a2f9df7eb827197193ad7c9063e57112d4e32f986"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/menu/menu.h"
+          },
+          "hashes": {
+            "sha-256": "1d620d9a01c72560b289ab4ad23c64119d514bbfedb01482f8a02ddc12889f79"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/login/login.h"
+          },
+          "hashes": {
+            "sha-256": "009b810a5472ae31511c75e2214d6a04f9d3d0cd7658bc02b5b50c7e380d4a8d"
+          }
+        }
+      ]
+    }
+  ]
+}

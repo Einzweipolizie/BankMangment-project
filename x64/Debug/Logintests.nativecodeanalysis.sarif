@@ -1,0 +1,76 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'rename'."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/login/logintests.c"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Logintests.c"
+                },
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 2,
+                  "endLine": 104,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TestLogin",
+                  "decoratedName": "TestLogin",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.42.34436.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/login/logintests.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "f0d5727d160978056253de74dc9fc3324320006e21d8089a0c6cd954a08613a1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/login/login.h"
+          },
+          "hashes": {
+            "sha-256": "009b810a5472ae31511c75e2214d6a04f9d3d0cd7658bc02b5b50c7e380d4a8d"
+          }
+        }
+      ]
+    }
+  ]
+}

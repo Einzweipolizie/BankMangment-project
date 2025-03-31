@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\Menu\</FILEPATH>
+      <FILENAME>StartingMenu.c</FILENAME>
+      <LINE>39</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6271</DEFECTCODE>
+    <DESCRIPTION>Extra argument passed to 'scanf_s'.</DESCRIPTION>
+    <FUNCTION>starter_menu</FUNCTION>
+    <DECORATED>starter_menu</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\Menu\</FILEPATH>
+      <FILENAME>StartingMenu.c</FILENAME>
+      <LINE>46</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'getchar'.</DESCRIPTION>
+    <FUNCTION>starter_menu</FUNCTION>
+    <DECORATED>starter_menu</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\Menu\</FILEPATH>
+      <FILENAME>StartingMenu.c</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'getchar'.</DESCRIPTION>
+    <FUNCTION>starter_menu</FUNCTION>
+    <DECORATED>starter_menu</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\Menu\</FILEPATH>
+      <FILENAME>StartingMenu.c</FILENAME>
+      <LINE>55</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'getchar'.</DESCRIPTION>
+    <FUNCTION>starter_menu</FUNCTION>
+    <DECORATED>starter_menu</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,12 @@
+C:\Users\PC\source\repos\main\BankMangment\Acounts\Acount.c;C:\Users\PC\source\repos\main\BankMangment\x64\Debug\Acount.obj
+C:\Users\PC\source\repos\main\BankMangment\Acounts\AcountTestst.c;C:\Users\PC\source\repos\main\BankMangment\x64\Debug\AcountTestst.obj
+C:\Users\PC\source\repos\main\BankMangment\login\Login.c;C:\Users\PC\source\repos\main\BankMangment\x64\Debug\Login.obj
+C:\Users\PC\source\repos\main\BankMangment\login\Logintests.c;C:\Users\PC\source\repos\main\BankMangment\x64\Debug\Logintests.obj
+C:\Users\PC\source\repos\main\BankMangment\login\LogOut.c;C:\Users\PC\source\repos\main\BankMangment\x64\Debug\LogOut.obj
+C:\Users\PC\source\repos\main\BankMangment\main.c;C:\Users\PC\source\repos\main\BankMangment\x64\Debug\main.obj
+C:\Users\PC\source\repos\main\BankMangment\Menu\menu.c;C:\Users\PC\source\repos\main\BankMangment\x64\Debug\menu.obj
+C:\Users\PC\source\repos\main\BankMangment\Menu\StartingMenu.c;C:\Users\PC\source\repos\main\BankMangment\x64\Debug\StartingMenu.obj
+C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\checkbalance.c;C:\Users\PC\source\repos\main\BankMangment\x64\Debug\checkbalance.obj
+C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\transaction.c;C:\Users\PC\source\repos\main\BankMangment\x64\Debug\transaction.obj
+C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\TransactionTests.c;C:\Users\PC\source\repos\main\BankMangment\x64\Debug\TransactionTests.obj
+C:\Users\PC\source\repos\main\BankMangment\WhatToDo.c;C:\Users\PC\source\repos\main\BankMangment\x64\Debug\WhatToDo.obj

@@ -1,0 +1,17 @@
+﻿  transaction.c
+C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\transaction.c(12,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\transaction.c(49,2): warning C4013: 'gotoxy' undefined; assuming extern returning int
+C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\transaction.c(56,10): warning C4477: 'scanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 2 has type 'size_t'
+      C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\transaction.c(56,10):
+      this argument is used as a buffer size
+  
+C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\transaction.c(60,10): warning C4477: 'scanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 2 has type 'size_t'
+      C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\transaction.c(60,10):
+      this argument is used as a buffer size
+  
+C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\transaction.c(83,10): warning C4477: 'scanf_s' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'float *'
+C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\transaction.c(83,32): warning C4474: 'scanf_s' : too many arguments passed for format string
+      C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\transaction.c(83,32):
+      placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+  
+  BankMangment.vcxproj -> C:\Users\PC\source\repos\main\x64\Debug\BankMangment.exe

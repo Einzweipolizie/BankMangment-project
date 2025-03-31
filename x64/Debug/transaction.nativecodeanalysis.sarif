@@ -1,0 +1,1286 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6328",
+          "message": {
+            "text": "Size mismatch: 'unsigned __int64' passed as _Param_(3) when 'unsigned int' is required in call to 'scanf_s'. "
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/moneyoperations/transaction.c"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 2,
+                  "endLine": 55,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "transfermoney",
+                  "decoratedName": "transfermoney",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6328",
+          "message": {
+            "text": "Size mismatch: 'unsigned __int64' passed as _Param_(3) when 'unsigned int' is required in call to 'scanf_s'. "
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/moneyoperations/transaction.c"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                },
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 2,
+                  "endLine": 59,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "transfermoney",
+                  "decoratedName": "transfermoney",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6271",
+          "message": {
+            "text": "Extra argument passed to 'scanf_s'."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/moneyoperations/transaction.c"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                },
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 2,
+                  "endLine": 75,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "transfermoney",
+                  "decoratedName": "transfermoney",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'getchar'."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/moneyoperations/transaction.c"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                },
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "transfermoney",
+                  "decoratedName": "transfermoney",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'getchar'."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/moneyoperations/transaction.c"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                },
+                "region": {
+                  "startLine": 151,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "transfermoney",
+                  "decoratedName": "transfermoney",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6054",
+          "message": {
+            "text": "String 'his_username' might not be zero-terminated."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/moneyoperations/transaction.c"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                },
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 4,
+                  "endLine": 67,
+                  "endColumn": 53
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "transfermoney",
+                  "decoratedName": "transfermoney",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "This expression may not zero-terminate 'his_username'"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 27,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'err!=0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'err2!=0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 48,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 49,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 2
+                          }
+                        },
+                        "message": {
+                          "text": "'his_username' is an Output from 'scanf_s' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stdio.h:1313)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 66,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 67,
+                            "startColumn": 4
+                          }
+                        },
+                        "message": {
+                          "text": "'his_username' is an Input to 'strcpy_s' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\string.h:32)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 67,
+                            "startColumn": 4
+                          }
+                        },
+                        "message": {
+                          "text": "'his_username' is required to be zero-terminated by a SAL annotation on 'strcpy_s'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6054",
+          "message": {
+            "text": "String 'your_username' might not be zero-terminated."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/moneyoperations/transaction.c"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 7,
+                  "endLine": 102,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "transfermoney",
+                  "decoratedName": "transfermoney",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 27,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "This expression may not zero-terminate 'your_username'"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'err!=0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'err2!=0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 48,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 49,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 2
+                          }
+                        },
+                        "message": {
+                          "text": "'your_username' is an Output from 'scanf_s' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stdio.h:1313)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 74,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 75,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 76,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'u.balance<m.HowMuchSent' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 90,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 93,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'err!=0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 99,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 101,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "'your_username' is an Input to 'strcmp' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\string.h:100)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/transaction.c"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "'your_username' is required to be zero-terminated by a SAL annotation on 'strcmp'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.42.34436.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/moneyoperations/transaction.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "0e00c342d1c23fb6734f211c0e1e3c42be96be03dd3f143c1d7d627776b96ef7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/moneyoperations/moenyoperation.h"
+          },
+          "hashes": {
+            "sha-256": "abfe962144176b72805c3d1e1b259dcef0ce0165604c79de0b4920a846f4cc85"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/menu/menu.h"
+          },
+          "hashes": {
+            "sha-256": "1d620d9a01c72560b289ab4ad23c64119d514bbfedb01482f8a02ddc12889f79"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/userinfo.h"
+          },
+          "hashes": {
+            "sha-256": "02deb6f4d9060ebcc325b799f902ee43096eb8f7053d4ce5b959c47191d952a8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/acounts/acount.h"
+          },
+          "hashes": {
+            "sha-256": "17bf6589aff6dee3ff2b3a1e15f51e2fc8b955d375370eda466847cde7bf9395"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/login/login.h"
+          },
+          "hashes": {
+            "sha-256": "009b810a5472ae31511c75e2214d6a04f9d3d0cd7658bc02b5b50c7e380d4a8d"
+          }
+        }
+      ]
+    }
+  ]
+}
