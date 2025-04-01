@@ -44,21 +44,13 @@ void acount() { //  do tests tomorow
 	}
 
 	takeInput("your first name? ", u.name, "string"); // do a function takeInput(string InputMsg, varibaleToWrite, ....) 
-	//printf("DEBUG: First name: '%s'\n", u.name);
 	takeInput("last_name please: ", u.last_name, "string");
-	//printf("DEBUG: Last name: '%s'\n", u.last_name);
 	takeInput("insert your username: ", u.username, "string");
-	//printf("DEBUG: First name: '%s'\n", u.username);
 	takeInput("what year were you born: ", &u.year, "%d");
-	//printf("DEBUG: First name: '%d'\n", u.year);
 	takeInput("what month were you born: ", &u.month, "%d");
-	//printf("DEBUG: First name: '%d'\n", u.month);
 	takeInput("what day were you born: ", &u.day, "%d");
-	//printf("DEBUG: First name: '%d'\n", u.day);
 	takeInput("Please enter your initial balance: ", &u.balance, "%f");
-	//printf("DEBUG: First name: '%f'\n", u.balance);
 	takeInput("password please: ", u.password, "string");
-	//printf("DEBUG: password: '%s'\n", u.password);
 
 
 	u.username[sizeof(u.username) - 1] = '\0';
@@ -71,7 +63,15 @@ void acount() { //  do tests tomorow
 		return;
 	}
 
-	printf("Struct size in acount.c: %zu\n", sizeof(struct UserInfo));
+	for (int i = 0; i < MAX; i++) { // its adding to the struct array 
+		if (strlen(Users[i].username) == 0) {
+			Users[i] = u;
+			break;
+		}
+
+	}
+
+	//printf("Struct size in acount.c: %zu\n", sizeof(struct UserInfo));
 	//Sleep(3000); // can be used to see if any of the the things we wrote is no getting it
 
 

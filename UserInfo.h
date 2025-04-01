@@ -16,6 +16,11 @@ struct UserInfo {
     char password[MAX];
 };
 
+struct UserInfo Users[MAX]; // for the hashmap
+
+
+
+
 struct money {
     char his_username[30];
     char your_username[30];

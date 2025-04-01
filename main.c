@@ -29,7 +29,7 @@
 int main() { 
 
 
-
+    LoadToArray(); // its a must from loading your acounts info that saved in file into hashmap(struck array)
 
     //TestLogin();  // Test if the account is written and read correctly // idk why its not working
     //AcountTest(); // test for tranfer Money working 

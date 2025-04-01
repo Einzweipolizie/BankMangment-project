@@ -14,3 +14,6 @@ void acount_created();
 
 //TESTS
 void TestFileWrite();
+
+//Hash map
+void LoadToArray();
