@@ -51,10 +51,7 @@
     <ClCompile Include="WhatToDo.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="HashMaps\Hashmap.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="test.c">
+    <ClCompile Include="Acounts\AcountsTransfer.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -72,9 +69,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="UserInfo.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="HashMaps\HashMap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

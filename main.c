@@ -8,7 +8,7 @@
 #include "login/Login.h" //Login.h
 #include "MoneyOperations/MoenyOperation.h"
 #include "Menu/menu.h"
-#include "HashMaps/HashMap.h"
+
 
 
 //void acount(); // how you register to the acount // done
@@ -33,7 +33,7 @@ int main() {
 
     //TestLogin();  // Test if the account is written and read correctly // idk why its not working
     //AcountTest(); // test for tranfer Money working 
-    //starter_menu(); // Starter Menu
+    starter_menu(); // Starter Menu
     //transfermoney(); // what i am working right now after hashmpa
     
     return 0;

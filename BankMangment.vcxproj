@@ -129,8 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Acounts\Acount.c" />
     <ClCompile Include="Acounts\AcountTestst.c" />
-    <ClCompile Include="HashMaps\Hashmap.c" />
-    <ClCompile Include="test.c" />
+    <ClCompile Include="Acounts\AcountsTransfer.c" />
     <ClCompile Include="login\Login.c" />
     <ClCompile Include="login\Logintests.c" />
     <ClCompile Include="login\LogOut.c" />
@@ -144,7 +143,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Acounts\Acount.h" />
-    <ClInclude Include="HashMaps\HashMap.h" />
     <ClInclude Include="login\Login.h" />
     <ClInclude Include="Menu\menu.h" />
     <ClInclude Include="MoneyOperations\MoenyOperation.h" />

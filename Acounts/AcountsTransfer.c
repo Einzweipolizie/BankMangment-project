@@ -13,21 +13,23 @@
 void LoadToArray() {
 	FILE* file;
 
-	errno_t err = fopen_s(&file, "username.txt", "wb");
+	errno_t err = fopen_s(&file, "username.txt", "rb");
 
-	if (!err) {
+	if (err != 0) {
 		printf("there is an eror in opening the file in Acount tranfer File in LoadToArray function\n");
 		return;
 	}
 
-	size_t ReadCount = fread(Users, sizeof(struct UserInfo), 1, file); // Users is struckt of arrays
+	size_t ReadCount = fread(Users, sizeof(struct UserInfo), MAX, file); // Users is struckt of arrays
 
 	if (ReadCount == 0) {
-		printf("there is a problem in read a file or eror in AcountTransfer in LoadToArrat function in size_t\n");
+		printf("No users read from the file\n");
 	}
 	else {
-		printf("%zu users loaded from the file\n");
+		printf("%zu users loaded from the file\n", ReadCount);
 	}
+
+	Sleep(1000);
 
 	fclose(file);
 
@@ -36,18 +38,24 @@ void LoadToArray() {
 
 void LoadToFile() {
 	FILE* file;
-	errno_t err = fopen_s(&file, "username.txt", "ab");
+	errno_t err = fopen_s(&file, "username.txt", "wb");
 
 	if (err == 0) {
 		printf("there is an eror in opening the file in Acount tranfer File in LoadToArray function\n");
 		return;
 	}
 
-	if (fwrite(Users, sizeof(struct UserInfo), MAX, file) != 1) {
-		printf("Error writing to file\n");
-		fclose(file);
-		return;
+	size_t written = (fwrite(Users, sizeof(struct UserInfo), MAX, file) != 1);
+	if (written != MAX) {
+		printf("Error: Only %zu out of %d users written.\n", written, MAX);
 	}
+	else {
+		printf("All %d users saved successfully.\n", MAX);
+	}
+
+	
+
+	
 
 	fclose(file);
 	printf("Users successfully written to file.\n");

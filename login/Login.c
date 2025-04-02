@@ -14,28 +14,37 @@
 
 void login() {
 
+	//system("cls");
+
+	//FILE* file;
+
+	//char username[MAX];
+	//char password[MAX];
+
+	//int i = 0;
+	//int account_Found = 0;
+
+	//struct UserInfo u;
+
+
+	//errno_t err = fopen_s(&file, "username.txt", "rb");
+
+	//if (file == NULL) {
+	//	printf("there is a problem with a file try later");
+	//	return;
+	//}
+
 	system("cls");
-
-	FILE* file;
-
 	char username[MAX];
 	char password[MAX];
-
-	int i = 0;
 	int account_Found = 0;
+	int i = 0;
 
-	struct UserInfo u;
-
-	printf("Struct size in login.c: %zu\n", sizeof(struct UserInfo));
-
-	errno_t err = fopen_s(&file, "username.txt", "rb");
-
-
-
-	if (file == NULL) {
-		printf("there is a problem with a file try later");
+	if (Users[0].username[0] == '\0') {
+		printf("there isnt any user data loaded restart the program\n");
 		return;
 	}
+
 
 	gotoxy(34, 2);
 	printf("ACOUNT LOGIN");
@@ -80,25 +89,17 @@ void login() {
 
 	// the prbolem i have is hwen i read the file idk why but some grabrage is mixed
 
-	rewind(file);
-
-	memset(&u, 0, sizeof(struct UserInfo));
-
-
-	while (fread(&u, sizeof(struct UserInfo), 1, file)) {
-
-
-		printf("\nStored username : %s\n", u.username);
-		printf("Stored password: %s\n", u.password);
-		printf("Entered username: %s\n", username);
-		printf("Entered password: %s\n", password);
-
-		if (strcmp(username, u.username) == 0) { // compres from file and what you write
-			if (strcmp(password, u.password) == 0) {
-				printf("the password was found successfuly!!\n");
-				account_Found = 1;
-				fclose(file);
-				loginsu(u.username);
+	for (int index = 0; index < MAX; index++) {
+		
+		if (Users[index].username[0] == '\0') {
+			printf("there is problem in the for loop in login\n");
+			break;
+		}
+		
+		if (strcmp(username, Users[index].username) == 0) {
+			if (strcmp(password, Users[index].password) == 0) {
+				printf("login successfully!\n");
+				loginsu(Users[index].username);
 				break;
 			}
 		}
@@ -109,7 +110,7 @@ void login() {
 		printf("\nYour account doesn't exist or incorrect username/password.\n");
 	}
 
-	fclose(file);
+	
 	
 }
 

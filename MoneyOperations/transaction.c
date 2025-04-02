@@ -101,7 +101,7 @@ void transfermoney() { //you can do test whne writin detalies into money struct
 		if (!strcmp(your_username, u.username)) {
 			u.balance -= m.HowMuchSent;
 
-			long offset = -(sizeof(u)); // need for the size of fseek for it to go back exectly where is the infomration we need
+			long offset =  -(long)sizeof(u); // need for the size of fseek for it to go back exectly where is the infomration we need
 			fseek(file, offset, SEEK_CUR);
 
 			fwrite(&u, sizeof(u), 1, file);
