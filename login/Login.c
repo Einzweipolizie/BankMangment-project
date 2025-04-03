@@ -14,27 +14,10 @@
 
 void login() {
 
-	//system("cls");
 
-	//FILE* file;
-
-	//char username[MAX];
-	//char password[MAX];
-
-	//int i = 0;
-	//int account_Found = 0;
-
-	//struct UserInfo u;
-
-
-	//errno_t err = fopen_s(&file, "username.txt", "rb");
-
-	//if (file == NULL) {
-	//	printf("there is a problem with a file try later");
-	//	return;
-	//}
 
 	system("cls");
+
 	char username[MAX];
 	char password[MAX];
 	int account_Found = 0;

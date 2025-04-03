@@ -34,7 +34,7 @@ void AcountTest() {
 
 	struct UserInfo u1 = { "John", "Doe", "john123", 1995, 5, 15, 100.00f, "password" };
 	struct UserInfo u2 = { "Jane", "Doe", "jane456", 1990, 3, 10, 0, "password123" };
-	struct money m;
+	struct Money m;
 
 
 	fwrite(&u1, sizeof(u1), 1, UserFile);

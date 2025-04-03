@@ -17,7 +17,7 @@ void checkbalance(char username[]) {
 
 	struct UserInfo u; // i dont know it its needed
 
-	struct money m;
+	struct Money m;
 
 
 	errno_t err = fopen_s(&MoneyOpertions, "money.txt", "a+b");

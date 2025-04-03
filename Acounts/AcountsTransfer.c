@@ -16,7 +16,7 @@ void LoadToArray() {
 	errno_t err = fopen_s(&file, "username.txt", "rb");
 
 	if (err != 0) {
-		printf("there is an eror in opening the file in Acount tranfer File in LoadToArray function\n");
+		printf("there is an eror in opening the file in Acount tranfer File in LoadToArray function in arr1\n");
 		return;
 	}
 
@@ -29,15 +29,38 @@ void LoadToArray() {
 		printf("%zu users loaded from the file\n", ReadCount);
 	}
 
-	Sleep(1000);
-
 	fclose(file);
+	FILE* MoneyOpertions;
+
+	errno_t err2 = fopen_s(&MoneyOpertions, "mon.txt", "rb");
+
+	if (err2 != 0) {
+		printf("there is an eror in opening the file in Acount tranfer File in LoadToArray function in arr2\n");
+		return;
+	}
+
+	// ask nir if i can use 2 ReadCount in ont program
+
+	size_t ReadCount_mon = fread(Mon, sizeof(struct Money), MAX, MoneyOpertions);
+
+	if (ReadCount_mon == 0) {
+		printf("no info of money in the file\n");
+	}
+	else {
+		printf("%zu data of users transactions was loaded\n", ReadCount_mon);
+	}
+
+	Sleep(3000);
+
+	fclose(MoneyOpertions);
 
 }
 
 
 void LoadToFile() {
 	FILE* file;
+	
+
 	errno_t err = fopen_s(&file, "username.txt", "wb");
 
 	if (err == 0) {
@@ -53,11 +76,29 @@ void LoadToFile() {
 		printf("All %d users saved successfully.\n", MAX);
 	}
 
-	
+	fclose(file);
+	printf("Users successfully written to file.\n");
 
-	
+
+	FILE* MoneyOpertions;
+
+	errno_t err2 = fopen_s(&MoneyOpertions, "mon.txt", "wb");
+
+	if (err2 != 0) {
+		printf("there is an eror in opening the file in Acount tranfer File in LoadToArray function in arr2\n");
+		return;
+	}
+
+	size_t written_mon = (fwrite(Mon, sizeof(struct Money), MAX, MoneyOpertions) != 1);
+	if (written_mon != MAX) {
+		printf("Error: Only %zu out of %d users written.\n", written_mon, MAX);
+	}
+	else {
+		printf("All %d users saved successfully.\n", MAX);
+	}
 
 	fclose(file);
 	printf("Users successfully written to file.\n");
+
 
 }

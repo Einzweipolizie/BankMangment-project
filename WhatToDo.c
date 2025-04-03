@@ -11,9 +11,8 @@
 // need to change in display for it show the real blance becuse in the end of trasnform money there is difernt blance when in display
 // the user Eins is not deleated in acounttests function
 // its doesnt change the blance when i sending money!
-// why tf git has all my project need to undestand how to fix that
 // need to add LoadToFile at the end of the end of the program so the arrays will be saved into the file (logout,exit etc..)
-// i did so every time you trnafer from hashmap array to the file it will overwrite everything so if its crushed all be ceses to exist
+// need to understand why its not wotkin in transfer money
 
 
 // WHAT TO DO NOW!!:

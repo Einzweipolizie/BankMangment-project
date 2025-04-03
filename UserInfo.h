@@ -1,6 +1,5 @@
 #pragma once
-#ifndef USERINFO_H
-#define USERINFO_H
+
 
 #define MAX 50
 
@@ -14,18 +13,19 @@ struct UserInfo {
     int day;
     float balance;
     char password[MAX];
+
+    // maybe add here a struct Money for it to be the smae index as UserInfo?
 };
 
-struct UserInfo Users[MAX]; // for the hashmap
+struct UserInfo Users[MAX]; // for the hashmap 
 
 
 
-
-struct money {
-    char his_username[30];
-    char your_username[30];
+struct Money {
+    char his_username[MAX];
+    char your_username[MAX];
     float HowMuchSent;
 };
 
+struct Money Mon[MAX]; // hashmap for Moeny struct
 
-#endif
