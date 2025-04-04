@@ -74,13 +74,14 @@ void login() {
 
 	for (int index = 0; index < MAX; index++) {
 		
-		if (Users[index].username[0] == '\0') {
-			printf("there is problem in the for loop in login\n");
-			break;
-		}
-		
+		//if (Users[index].username[0] == '\0') {
+		//	printf("there is problem in the for loop in login\n");
+		//	break;
+		//}
+
 		if (strcmp(username, Users[index].username) == 0) {
 			if (strcmp(password, Users[index].password) == 0) {
+				account_Found = 1;
 				printf("login successfully!\n");
 				loginsu(Users[index].username);
 				break;

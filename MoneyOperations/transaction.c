@@ -75,14 +75,17 @@ void transfermoney() { //you can do test whne writin detalies into money struct
 	//}
 
 	for(index = 0; index < MAX; index++) { // need to differnt function here
-		if (Users[index].username == your_username) {
-			//your_username == Mon[index].your_username;  ITS FOR LATER FOR TRANSACTIONS
-			//his_username == Mon[index].his_username;   ITS FOR LATER FOR TRANSACTIONS
-			sender_balance = Users[index].balance;
-			sender_found = 1;
-			break;
+		if (Users[index].username[0] != '\0') {
+			if (strcmp(Users[index].username, your_username)){
+				//your_username == Mon[index].your_username;  ITS FOR LATER FOR TRANSACTIONS
+				//his_username == Mon[index].his_username;   ITS FOR LATER FOR TRANSACTIONS
+				sender_balance = Users[index].balance;
+				sender_found = 1;
+				break;
+			}
 		}
 	}
+
 
 	gotoxy(33, 16);
 
@@ -126,7 +129,7 @@ void transfermoney() { //you can do test whne writin detalies into money struct
 	//}
 
 	for (index = 0; index < MAX; index++) { // need to differnt function here
-		if (Users[index].username == your_username) {
+		if (strcmp(Users[index].username, your_username)) {
 			Users[index].balance -= TheAmountYouWantToSend;
 			UserFoundUpdate = 1;
 			break;

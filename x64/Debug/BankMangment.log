@@ -1,16 +1,4 @@
-﻿  transaction.c
-C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\transaction.c(12,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\transaction.c(50,2): warning C4013: 'gotoxy' undefined; assuming extern returning int
-C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\transaction.c(57,10): warning C4477: 'scanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 2 has type 'size_t'
-      C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\transaction.c(57,10):
-      this argument is used as a buffer size
-  
-C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\transaction.c(61,10): warning C4477: 'scanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 2 has type 'size_t'
-      C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\transaction.c(61,10):
-      this argument is used as a buffer size
-  
-C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\transaction.c(95,41): warning C4474: 'scanf_s' : too many arguments passed for format string
-      C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\transaction.c(95,41):
-      placeholders and their parameters expect 1 variadic arguments, but 2 were provided
-  
+﻿  Login.c
+C:\Users\PC\source\repos\main\BankMangment\login\Login.c(32,2): warning C4013: 'gotoxy' undefined; assuming extern returning int
+C:\Users\PC\source\repos\main\BankMangment\login\Login.c(104,18): warning C4101: 'u': unreferenced local variable
   BankMangment.vcxproj -> C:\Users\PC\source\repos\main\x64\Debug\BankMangment.exe

@@ -64,5 +64,5 @@ void TestFileWrite() { // i did it a bit wrong i need to do the test before the 
 	fclose(file);
 	fclose(originalFile);
 
-	Sleep(1500);
+	Sleep(800);
 }

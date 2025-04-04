@@ -50,7 +50,7 @@ void LoadToArray() {
 		printf("%zu data of users transactions was loaded\n", ReadCount_mon);
 	}
 
-	Sleep(3000);
+	Sleep(700);
 
 	fclose(MoneyOpertions);
 
