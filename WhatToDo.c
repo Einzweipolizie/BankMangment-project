@@ -10,9 +10,8 @@
 // there is prblem in acount creaintg function i need to find where to put getchar becuse i did somthing for now and it need to be fixed
 // need to change in display for it show the real blance becuse in the end of trasnform money there is difernt blance when in display
 // the user Eins is not deleated in acounttests function
-// its doesnt change the blance when i sending money!
 // need to add LoadToFile at the end of the end of the program so the arrays will be saved into the file (logout,exit etc..)
-// need to understand why its not wotkin in transfer money
+// if i endeing the fucntion after i transferd money and close the program all the existing acounts will be gone
 
 
 // WHAT TO DO NOW!!:

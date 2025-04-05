@@ -54,7 +54,7 @@ void login() {
 
 
 
-	while (i < 50) {
+	while (i < MAX - 1) {
 		char ch = _getch(); // every chartcher you print will be ch
 
 		if (ch != Enter_key) { // the ascii code when you print enter is 13 so when its enter its stops nad i defined 13 as Enter_key

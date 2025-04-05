@@ -18,42 +18,11 @@ void display(char username[]) {
 
 	system("cls");
 
-	//FILE* file;
-	//errno_t err = fopen_s(&file, "username.txt", "rb");
-	//struct UserInfo u;
 
-	//if (err != 0) {
-	//	printf("Error opening username.txt in display() with error code %d\n", err); // here the problem two
-
-	//	return;
-	//}
-
-
-	//while (fread(&u, sizeof(u), 1, file)) {
-	//	if (strcmp(username, u.username) == 0) {
-	//		gotoxy(30, 1);
-	//		printf("WELCOME, %s, %s", u.name, u.last_name);
-	//		gotoxy(28, 2);
-	//		printf("..........................");
-	//		gotoxy(55, 6);
-	//		printf("==== YOUR ACCOUNT INFO ====");
-	//		gotoxy(55, 8);
-	//		printf("***************************");
-	//		gotoxy(55, 10);
-	//		printf("NAME..%s %s", u.name, u.last_name); // you can test here if its true or nor too
-	//		gotoxy(55, 12);
-	//		printf("DATE OF BIRTH.. %d-%d-%d", u.year, u.month, u.day); // you can test here if its true or nor too
-	//		gotoxy(55, 14);
-	//		printf("YOU HAVE IN THE BLANCE: %f", u.balance);
-
-	//		// you can add more its not a problem
-	//	}
-
-	//}
 
 	for (int index = 0; index < MAX; index++) {
 		if (Users[index].username[0] != '\0') {
-			if (strcmp(Users[index].username, username)) {
+			if (strcmp(Users[index].username, username) == 0) {
 				gotoxy(30, 1);
 				printf("WELCOME, %s, %s", Users[index].name, Users[index].last_name);
 				gotoxy(28, 2);
@@ -74,8 +43,10 @@ void display(char username[]) {
 
 		}
 	}
-	//fclose(file);
 }
+
+
+
 
 void MenuChose(char username[]) {
 	int choice;
@@ -108,7 +79,7 @@ void MenuChose(char username[]) {
 		break;
 
 	case 2:
-		transfermoney(); 
+		transfermoney(username);
 		break;
 	case 3:
 		logout(); 

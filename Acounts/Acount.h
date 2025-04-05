@@ -17,3 +17,4 @@ void TestFileWrite();
 
 //Hash map
 void LoadToArray();
+void LoadToFile();

@@ -64,7 +64,7 @@ void LoadToFile() {
 	errno_t err = fopen_s(&file, "username.txt", "wb");
 
 	if (err == 0) {
-		printf("there is an eror in opening the file in Acount tranfer File in LoadToArray function\n");
+		printf("there is an eror in opening the file in Acount tranfer File in LoadToFile function\n");
 		return;
 	}
 
@@ -85,7 +85,7 @@ void LoadToFile() {
 	errno_t err2 = fopen_s(&MoneyOpertions, "mon.txt", "wb");
 
 	if (err2 != 0) {
-		printf("there is an eror in opening the file in Acount tranfer File in LoadToArray function in arr2\n");
+		printf("there is an eror in opening the file in Acount tranfer File in LoadToFile function in arr2\n");
 		return;
 	}
 
@@ -100,5 +100,5 @@ void LoadToFile() {
 	fclose(file);
 	printf("Users successfully written to file.\n");
 
-
+	
 }
