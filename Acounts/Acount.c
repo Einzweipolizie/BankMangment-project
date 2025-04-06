@@ -25,7 +25,7 @@ void acount() { //  do tests tomorow
 	errno_t err = fopen_s(&file, "username.txt", "ab"); // ab and w for deleting
 
 	struct UserInfo u = {0};
-
+	
 
 	if (err != 0) {
 		printf("Error opening file: %d\n", err);
@@ -77,9 +77,8 @@ void acount() { //  do tests tomorow
 
 	fclose(file);
 
-
-
-	
+	LoadToFile();
+	Sleep(5000);
 	TestFileWrite();
 	acount_created();
 
@@ -114,6 +113,8 @@ void acount_created() {
 	printf("press enter to login:");
 
 	getchar();
+
+
 
 	login(); //later need to do login function
 

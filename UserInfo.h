@@ -29,3 +29,5 @@ struct Money {
 
 struct Money Mon[MAX]; // hashmap for Moeny struct
 
+
+extern int num_users;

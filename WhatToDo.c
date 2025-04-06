@@ -12,7 +12,7 @@
 // the user Eins is not deleated in acounttests function
 // need to add LoadToFile at the end of the end of the program so the arrays will be saved into the file (logout,exit etc..)
 // if i endeing the fucntion after i transferd money and close the program all the existing acounts will be gone
-
+// there is problem that after you close the program all acounts execpt 1 will be deleated
 
 // WHAT TO DO NOW!!:
 //HashMaps

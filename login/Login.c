@@ -70,15 +70,9 @@ void login() {
 		}
 	}
 
-	// the prbolem i have is hwen i read the file idk why but some grabrage is mixed
 
 	for (int index = 0; index < MAX; index++) {
 		
-		//if (Users[index].username[0] == '\0') {
-		//	printf("there is problem in the for loop in login\n");
-		//	break;
-		//}
-
 		if (strcmp(username, Users[index].username) == 0) {
 			if (strcmp(password, Users[index].password) == 0) {
 				account_Found = 1;
@@ -94,7 +88,8 @@ void login() {
 		printf("\nYour account doesn't exist or incorrect username/password.\n");
 	}
 
-	
+
+
 	
 }
 

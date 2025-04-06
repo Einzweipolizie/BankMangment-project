@@ -118,7 +118,7 @@ void transfermoney(char SenderUsername[]) { //you can do test whne writin detali
 	getchar();
 
 
-	LoadToFile();
+	//LoadToFile();
 	
 	display(SenderUsername); // not done
 	MenuChose(SenderUsername);
