@@ -102,6 +102,8 @@ void takeInput(char *InputMsg, void *var, char *format) { // ask nir why its nee
 
 void acount_created() {
 
+
+
 	system("cls");
 	printf("PLEASE WAIT....\n\nYOUR DATA IS PROCESSING....");
 	Sleep(3000);

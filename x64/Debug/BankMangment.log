@@ -1,4 +1,22 @@
 ﻿  Acount.c
+  AcountTestst.c
+  AcountsTransfer.c
+C:\Users\PC\source\repos\main\BankMangment\Acounts\AcountsTransfer.c(27,18): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Login.c
+C:\Users\PC\source\repos\main\BankMangment\login\Login.c(32,2): warning C4013: 'gotoxy' undefined; assuming extern returning int
+C:\Users\PC\source\repos\main\BankMangment\login\Login.c(99,18): warning C4101: 'u': unreferenced local variable
+  menu.c
+C:\Users\PC\source\repos\main\BankMangment\Menu\menu.c(13,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\PC\source\repos\main\BankMangment\Menu\menu.c(26,5): warning C4013: 'gotoxy' undefined; assuming extern returning int
+C:\Users\PC\source\repos\main\BankMangment\Menu\menu.c(74,25): warning C4474: 'scanf_s' : too many arguments passed for format string
+      C:\Users\PC\source\repos\main\BankMangment\Menu\menu.c(74,25):
+      placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+  
+C:\Users\PC\source\repos\main\BankMangment\Menu\menu.c(54,18): warning C4101: 'u': unreferenced local variable
+  checkbalance.c
+C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\checkbalance.c(30,2): warning C4013: 'gotoxy' undefined; assuming extern returning int
+C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\checkbalance.c(20,15): warning C4101: 'm': unreferenced local variable
+C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\checkbalance.c(18,18): warning C4101: 'u': unreferenced local variable
   transaction.c
 C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\transaction.c(12,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\transaction.c(29,2): warning C4013: 'gotoxy' undefined; assuming extern returning int
@@ -11,5 +29,6 @@ C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\transaction.c(57,41):
       placeholders and their parameters expect 1 variadic arguments, but 2 were provided
   
 C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\transaction.c(22,6): warning C4101: 'index': unreferenced local variable
+  TransactionTests.c
   Generating Code...
   BankMangment.vcxproj -> C:\Users\PC\source\repos\main\x64\Debug\BankMangment.exe

@@ -9,11 +9,11 @@
 #include "../login/Login.h"
 #include"../UserInfo.h" // Its file with the structs defentions
 
-int num_users = 0;
+
 
 void LoadToArray() {
 	FILE* file;
-	
+
 	
 	errno_t err = fopen_s(&file, "username.txt", "rb");
 
@@ -24,7 +24,7 @@ void LoadToArray() {
 
 	size_t ReadCount = fread(Users, sizeof(struct UserInfo), MAX, file); // Users is struckt of arrays // i changed MAX with num_users
 
-	num_users = ReadCount;
+	num.num_users = ReadCount;
 
 	if (ReadCount == 0) {
 		printf("No users read from the file\n");
@@ -63,7 +63,8 @@ void LoadToArray() {
 
 void LoadToFile() {
 	FILE* file;
-	
+
+
 
 	errno_t err = fopen_s(&file, "username.txt", "wb");
 
@@ -72,14 +73,14 @@ void LoadToFile() {
 		return;
 	}
 
-	size_t written = (fwrite(Users, sizeof(struct UserInfo), num_users, file)); // i changed MAX with num_users
+	size_t written = (fwrite(Users, sizeof(struct UserInfo), num.num_users, file)); // i changed MAX with num_users
 
-	if (written != num_users) {
-		printf("Error: Only %zu out of %d users written.\n", written, num_users);
+	if (written != num.num_users) {
+		printf("Error: Only %zu out of %d users written.\n", written, num.num_users);
 	}
 	else {
 
-		printf("All %d users saved successfully.\n", num_users);
+		printf("All %d users saved successfully.\n", num.num_users);
 	}
 
 
@@ -96,12 +97,12 @@ void LoadToFile() {
 		return;
 	}
 
-	size_t written_mon = (fwrite(Mon, sizeof(struct Money), MAX, MoneyOpertions) != 1);
-	if (written_mon != MAX) {
-		printf("Error: Only %zu out of %d users written.\n", written_mon, MAX);
+	size_t written_mon = (fwrite(Mon, sizeof(struct Money), num.num_users, MoneyOpertions) );
+	if (written_mon != num.num_users) {
+		printf("Error: Only %zu out of %d users written.\n", written_mon, num.num_users);
 	}
 	else {
-		printf("All %d users saved successfully.\n", MAX);
+		printf("All %d users saved successfully.\n", num.num_users);
 	}
 
 	fclose(MoneyOpertions);
