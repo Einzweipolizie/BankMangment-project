@@ -77,8 +77,10 @@ void acount() { //  do tests tomorow
 
 	fclose(file);
 
+	LoadToArray();
 	LoadToFile();
-	Sleep(5000);
+
+	Sleep(2000);
 	TestFileWrite();
 	acount_created();
 

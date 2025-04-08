@@ -104,7 +104,7 @@ void loginsu(char username[]) {
 	gotoxy(30, 10);
 	printf("LOGIN SUCCESSFUL...");
 
-	Sleep(1500);
+	Sleep(500);
 
 	getchar();
 

@@ -19,10 +19,10 @@
                   "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
                 },
                 "region": {
-                  "startLine": 96,
+                  "startLine": 76,
                   "startColumn": 7,
-                  "endLine": 96,
-                  "endColumn": 39
+                  "endLine": 76,
+                  "endColumn": 50
                 }
               },
               "logicalLocations": [
@@ -46,22 +46,8 @@
                             "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
                           },
                           "region": {
-                            "startLine": 17,
-                            "startColumn": 2
-                          }
-                        }
-                      },
-                      "importance": "unimportant"
-                    },
-                    {
-                      "location": {
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
-                          },
-                          "region": {
                             "startLine": 19,
-                            "startColumn": 8
+                            "startColumn": 2
                           }
                         }
                       },
@@ -108,6 +94,20 @@
                             "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
                           },
                           "region": {
+                            "startLine": 23,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
+                          },
+                          "region": {
                             "startLine": 24,
                             "startColumn": 6
                           }
@@ -122,12 +122,17 @@
                             "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
                           },
                           "region": {
-                            "startLine": 25,
-                            "startColumn": 6
+                            "startLine": 26,
+                            "startColumn": 27
                           }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'Users[0].username[0]==0' is false)"
                         }
                       },
-                      "importance": "unimportant"
+                      "kinds": [
+                        "branch"
+                      ]
                     },
                     {
                       "location": {
@@ -136,21 +141,7 @@
                             "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
                           },
                           "region": {
-                            "startLine": 27,
-                            "startColumn": 18
-                          }
-                        }
-                      },
-                      "importance": "unimportant"
-                    },
-                    {
-                      "location": {
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
-                          },
-                          "region": {
-                            "startLine": 29,
+                            "startLine": 32,
                             "startColumn": 2
                           }
                         }
@@ -164,8 +155,22 @@
                             "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
                           },
                           "region": {
-                            "startLine": 31,
-                            "startColumn": 10
+                            "startLine": 33,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 2
                           }
                         }
                       },
@@ -179,16 +184,25 @@
                           },
                           "region": {
                             "startLine": 35,
-                            "startColumn": 11
+                            "startColumn": 2
                           }
-                        },
-                        "message": {
-                          "text": "Skip this branch, (assume 'file==(((void *)0))' is false)"
                         }
                       },
-                      "kinds": [
-                        "branch"
-                      ]
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
                     },
                     {
                       "location": {
@@ -211,7 +225,7 @@
                             "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
                           },
                           "region": {
-                            "startLine": 41,
+                            "startLine": 45,
                             "startColumn": 2
                           }
                         }
@@ -225,21 +239,7 @@
                             "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
                           },
                           "region": {
-                            "startLine": 42,
-                            "startColumn": 2
-                          }
-                        }
-                      },
-                      "importance": "unimportant"
-                    },
-                    {
-                      "location": {
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
-                          },
-                          "region": {
-                            "startLine": 43,
+                            "startLine": 46,
                             "startColumn": 2
                           }
                         }
@@ -254,62 +254,6 @@
                           },
                           "region": {
                             "startLine": 47,
-                            "startColumn": 2
-                          }
-                        }
-                      },
-                      "importance": "unimportant"
-                    },
-                    {
-                      "location": {
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
-                          },
-                          "region": {
-                            "startLine": 48,
-                            "startColumn": 2
-                          }
-                        }
-                      },
-                      "importance": "unimportant"
-                    },
-                    {
-                      "location": {
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
-                          },
-                          "region": {
-                            "startLine": 53,
-                            "startColumn": 2
-                          }
-                        }
-                      },
-                      "importance": "unimportant"
-                    },
-                    {
-                      "location": {
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
-                          },
-                          "region": {
-                            "startLine": 54,
-                            "startColumn": 2
-                          }
-                        }
-                      },
-                      "importance": "unimportant"
-                    },
-                    {
-                      "location": {
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
-                          },
-                          "region": {
-                            "startLine": 55,
                             "startColumn": 2
                           }
                         },
@@ -328,54 +272,54 @@
                             "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
                           },
                           "region": {
+                            "startLine": 49,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
+                          },
+                          "region": {
                             "startLine": 57,
-                            "startColumn": 2
-                          }
-                        }
-                      },
-                      "importance": "unimportant"
-                    },
-                    {
-                      "location": {
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
-                          },
-                          "region": {
-                            "startLine": 58,
-                            "startColumn": 2
-                          }
-                        }
-                      },
-                      "importance": "unimportant"
-                    },
-                    {
-                      "location": {
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
-                          },
-                          "region": {
-                            "startLine": 60,
-                            "startColumn": 2
-                          }
-                        }
-                      },
-                      "importance": "unimportant"
-                    },
-                    {
-                      "location": {
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
-                          },
-                          "region": {
-                            "startLine": 65,
                             "startColumn": 11
                           }
                         },
                         "message": {
-                          "text": "Enter this loop, (assume 'i<50')"
+                          "text": "Enter this loop, (assume 'i<50-1')"
                         }
                       },
                       "kinds": [
@@ -389,7 +333,7 @@
                             "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
                           },
                           "region": {
-                            "startLine": 66,
+                            "startLine": 58,
                             "startColumn": 8
                           }
                         }
@@ -403,7 +347,7 @@
                             "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
                           },
                           "region": {
-                            "startLine": 68,
+                            "startLine": 60,
                             "startColumn": 10
                           }
                         },
@@ -422,7 +366,7 @@
                             "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
                           },
                           "region": {
-                            "startLine": 76,
+                            "startLine": 68,
                             "startColumn": 16
                           }
                         }
@@ -436,8 +380,8 @@
                             "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
                           },
                           "region": {
-                            "startLine": 83,
-                            "startColumn": 2
+                            "startLine": 74,
+                            "startColumn": 11
                           }
                         }
                       },
@@ -450,26 +394,12 @@
                             "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
                           },
                           "region": {
-                            "startLine": 85,
-                            "startColumn": 2
-                          }
-                        }
-                      },
-                      "importance": "unimportant"
-                    },
-                    {
-                      "location": {
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
-                          },
-                          "region": {
-                            "startLine": 88,
-                            "startColumn": 9
+                            "startLine": 74,
+                            "startColumn": 28
                           }
                         },
                         "message": {
-                          "text": "Enter this loop, (assume '<branch condition>')"
+                          "text": "Enter this loop, (assume 'index<50')"
                         }
                       },
                       "kinds": [
@@ -483,69 +413,8 @@
                             "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
                           },
                           "region": {
-                            "startLine": 91,
-                            "startColumn": 3
-                          }
-                        }
-                      },
-                      "importance": "unimportant"
-                    },
-                    {
-                      "location": {
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
-                          },
-                          "region": {
-                            "startLine": 92,
-                            "startColumn": 3
-                          }
-                        }
-                      },
-                      "importance": "unimportant"
-                    },
-                    {
-                      "location": {
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
-                          },
-                          "region": {
-                            "startLine": 93,
-                            "startColumn": 3
-                          }
-                        },
-                        "message": {
-                          "text": "'username' is an Output from 'printf' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stdio.h:950)"
-                        }
-                      },
-                      "kinds": [
-                        "declaration"
-                      ]
-                    },
-                    {
-                      "location": {
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
-                          },
-                          "region": {
-                            "startLine": 94,
-                            "startColumn": 3
-                          }
-                        }
-                      },
-                      "importance": "unimportant"
-                    },
-                    {
-                      "location": {
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
-                          },
-                          "region": {
-                            "startLine": 96,
-                            "startColumn": 36
+                            "startLine": 76,
+                            "startColumn": 47
                           }
                         },
                         "message": {
@@ -563,8 +432,8 @@
                             "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
                           },
                           "region": {
-                            "startLine": 96,
-                            "startColumn": 36
+                            "startLine": 76,
+                            "startColumn": 47
                           }
                         },
                         "message": {
@@ -597,7 +466,7 @@
                   "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/login/Login.c"
                 },
                 "region": {
-                  "startLine": 130,
+                  "startLine": 109,
                   "startColumn": 2
                 }
               },
@@ -635,7 +504,7 @@
             "resultFile"
           ],
           "hashes": {
-            "sha-256": "308719600b425754bb2be28711169eb5ec075d40564821005881a658a5140b22"
+            "sha-256": "49d576cba8b85b05fc8b4ae833a46da7c2aff776da5f99d0f87412cb0b59c026"
           }
         },
         {
@@ -659,7 +528,7 @@
             "uri": "file:///c:/users/pc/source/repos/main/bankmangment/userinfo.h"
           },
           "hashes": {
-            "sha-256": "02deb6f4d9060ebcc325b799f902ee43096eb8f7053d4ce5b959c47191d952a8"
+            "sha-256": "f5866ea87e3c8b50e8a7cc366fa8ba24ad4d802f92861a45187202106851b694"
           }
         },
         {
@@ -667,7 +536,7 @@
             "uri": "file:///c:/users/pc/source/repos/main/bankmangment/acounts/acount.h"
           },
           "hashes": {
-            "sha-256": "17bf6589aff6dee3ff2b3a1e15f51e2fc8b955d375370eda466847cde7bf9395"
+            "sha-256": "d41151ac98ef352f23d66c567818645eb9f98a637298d25c48330888144c9f82"
           }
         }
       ]

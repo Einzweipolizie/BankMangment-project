@@ -67,8 +67,10 @@ void MenuChose(char username[]) {
 	gotoxy(0, 13);
 	printf(" 3....LOG OUT\n\n");
 	gotoxy(0, 15);
-	printf(" 4....EXIT\n\n");
-
+	printf(" 4....Delete your User\n");
+	gotoxy(0, 17);
+	printf(" 5....EXIT\n");
+	gotoxy(0, 19);
 
 	printf("ENTER YOUR CHOISE:");
 	scanf_s("%d", &choice, sizeof(choice));
@@ -85,6 +87,9 @@ void MenuChose(char username[]) {
 		logout(); 
 		break;
 	case 4:
+		DeleteUser(username);
+		break;
+	case 5:
 		exit(0);
 		break;
 	}

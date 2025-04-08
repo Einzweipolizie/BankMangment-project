@@ -20,13 +20,13 @@
       "artifacts": [
         {
           "location": {
-            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/main.c"
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/acounts/acountstransfer.c"
           },
           "roles": [
             "analysisTarget"
           ],
           "hashes": {
-            "sha-256": "9d8c8502b26576d652ab790a19c6ec2bd93efbec40245f06f8238a6bee351c89"
+            "sha-256": "642003825e19a3381b1e344f9e836e26e3994e75d3320e9148aee936f0b4dc2e"
           }
         },
         {
@@ -47,18 +47,10 @@
         },
         {
           "location": {
-            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/moneyoperations/moenyoperation.h"
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/userinfo.h"
           },
           "hashes": {
-            "sha-256": "abfe962144176b72805c3d1e1b259dcef0ce0165604c79de0b4920a846f4cc85"
-          }
-        },
-        {
-          "location": {
-            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/menu/menu.h"
-          },
-          "hashes": {
-            "sha-256": "1d620d9a01c72560b289ab4ad23c64119d514bbfedb01482f8a02ddc12889f79"
+            "sha-256": "f5866ea87e3c8b50e8a7cc366fa8ba24ad4d802f92861a45187202106851b694"
           }
         }
       ]

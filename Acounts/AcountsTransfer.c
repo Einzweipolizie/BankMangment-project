@@ -9,7 +9,8 @@
 #include "../login/Login.h"
 #include"../UserInfo.h" // Its file with the structs defentions
 
-
+struct UserDatabase userDB = { .num_users = 0 };
+struct TransactionDatabase transDB = { .num_transactions = 0 };
 
 void LoadToArray() {
 	FILE* file;
@@ -86,7 +87,7 @@ void LoadToFile() {
 
 	fclose(file);
 	printf("Users successfully written to file.\n");
-	Sleep(5000);
+	Sleep(2000);
 
 	FILE* MoneyOpertions;
 
@@ -108,5 +109,50 @@ void LoadToFile() {
 	fclose(MoneyOpertions);
 	printf("Users successfully written to file.\n");
 
-	
+}
+
+void DeleteUser(char username[]) {
+
+	int UserIndex = -1;
+	for (int i = 0; i < userDB.num_users; i++) {
+		if (strcmp(userDB.users[i].username, username) == 0) {
+			UserIndex = i;
+			break;
+		}
+	}
+
+	if (UserIndex = -1) {
+		printf("the user wasnt find );\n");
+		return;
+	}
+
+
+	for (int i = UserIndex; i < userDB.num_users - 1; i++) { // shift all users that there higher in the index onle left
+		userDB.users[i] = userDB.users[i + 1]; // was 6 now 5
+
+	}
+
+	userDB.num_users--;
+
+	int i = 0;
+
+	while (i < transDB.num_transactions) {
+		if (strcmp(transDB.transactions[i].his_username, username) == 0 || (strcmp(transDB.transactions[i].your_username, username))) {
+
+			for (int j = i; j < transDB.num_transactions - 1; j++) {
+				transDB.transactions[j] = transDB.transactions[j + 1];
+			}
+			transDB.num_transactions--;
+
+		}
+		else {
+
+			i++;
+		}
+
+	}
+
+	printf("user '%s' and all related transaction deleted.\n", username);
+
+
 }

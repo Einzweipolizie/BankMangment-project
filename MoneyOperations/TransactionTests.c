@@ -44,34 +44,38 @@ void AcountTest() {
 	strcmp(m.your_username, "john123");
 	strcmp(m.his_username, "jane456");
 
-	m.HowMuchSent = 50; // test 1
+	m.amount = 50; // test 1
 
-	u1.balance -= m.HowMuchSent;
+	u1.balance -= m.amount;
 
 	assert(u1.balance == 50.00f);
 	printf("test 1 passed : Balance has benn decreased\n");
 
 	//late do the checking of the mon.txt file content
 	
-	m.HowMuchSent = 150; // test 2
-	if (u1.balance < m.HowMuchSent) {
+	m.amount = 150; // test 2
+	if (u1.balance < m.amount) {
 		printf("test 2 passed: insufficient balance error correctly handled\n");
 	}
 	else {
 		printf("IN TEST 2 IS A PROBLEM!!!!");
+		return;
 	}
 
 	strcmp(m.your_username, "idk_what_user"); //test 3
 	if (strcmp(m.your_username, u1.username) != 0) {
-		printf("test 3 passed: there wsa fake name and it didnt agree to it");
+		printf("test 3 passed: there wsa fake name and it didnt agree to it\n");
 	}
 	else {
 		printf("IN test 3 is a problem!!!!! ): ");
+		return;
 	}
 
 
 	remove("TemporyFile.txt");
 	remove("TemporyMoneyFile.txt");
+
+	printf("AcountTest WAS PASSED!!");
 
 	Sleep(2000);
 

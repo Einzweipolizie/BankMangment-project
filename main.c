@@ -31,8 +31,8 @@ int main() {
     int num_users = 0;
     LoadToArray(); // its a must from loading your acounts info that saved in file into hashmap(struck array)
 
-    //TestLogin();  // Test if the account is written and read correctly // idk why its not working
-    //AcountTest(); // test for tranfer Money working 
+    //TestLogin();  // Test if the account is written and read correctly //  WORKS
+    //AcountTest(); // test for tranfer Money working // WORKS
     starter_menu(); // Starter Menu
     //transfermoney(); // what i am working right now after hashmpa
     

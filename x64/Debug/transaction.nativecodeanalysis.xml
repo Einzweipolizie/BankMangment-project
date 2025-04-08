@@ -4,7 +4,7 @@
     <SFA>
       <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
       <FILENAME>transaction.c</FILENAME>
-      <LINE>55</LINE>
+      <LINE>37</LINE>
       <COLUMN>1</COLUMN>
     </SFA>
     <DEFECTCODE>6328</DEFECTCODE>
@@ -18,21 +18,7 @@
     <SFA>
       <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
       <FILENAME>transaction.c</FILENAME>
-      <LINE>59</LINE>
-      <COLUMN>1</COLUMN>
-    </SFA>
-    <DEFECTCODE>6328</DEFECTCODE>
-    <DESCRIPTION>Size mismatch: 'unsigned __int64' passed as _Param_(3) when 'unsigned int' is required in call to 'scanf_s'. </DESCRIPTION>
-    <FUNCTION>transfermoney</FUNCTION>
-    <DECORATED>transfermoney</DECORATED>
-    <FUNCLINE>14</FUNCLINE>
-    <PATH></PATH>
-  </DEFECT>
-  <DEFECT>
-    <SFA>
-      <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-      <FILENAME>transaction.c</FILENAME>
-      <LINE>75</LINE>
+      <LINE>57</LINE>
       <COLUMN>1</COLUMN>
     </SFA>
     <DEFECTCODE>6271</DEFECTCODE>
@@ -46,7 +32,7 @@
     <SFA>
       <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
       <FILENAME>transaction.c</FILENAME>
-      <LINE>76</LINE>
+      <LINE>59</LINE>
       <COLUMN>1</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
@@ -60,7 +46,7 @@
     <SFA>
       <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
       <FILENAME>transaction.c</FILENAME>
-      <LINE>151</LINE>
+      <LINE>118</LINE>
       <COLUMN>1</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
@@ -74,8 +60,8 @@
     <SFA>
       <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
       <FILENAME>transaction.c</FILENAME>
-      <LINE>67</LINE>
-      <COLUMN>3</COLUMN>
+      <LINE>70</LINE>
+      <COLUMN>46</COLUMN>
     </SFA>
     <DEFECTCODE>6054</DEFECTCODE>
     <DESCRIPTION>String 'his_username' might not be zero-terminated.</DESCRIPTION>
@@ -97,31 +83,7 @@
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
         <FILENAME>transaction.c</FILENAME>
-        <LINE>19</LINE>
-        <COLUMN>7</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>20</LINE>
-        <COLUMN>7</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>22</LINE>
-        <COLUMN>17</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>23</LINE>
-        <COLUMN>14</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>26</LINE>
+        <LINE>21</LINE>
         <COLUMN>6</COLUMN>
         <KEYEVENT>
           <ID>1</ID>
@@ -133,106 +95,70 @@
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
         <FILENAME>transaction.c</FILENAME>
-        <LINE>27</LINE>
-        <COLUMN>6</COLUMN>
+        <LINE>22</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
+        <FILENAME>transaction.c</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
+        <FILENAME>transaction.c</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
+        <FILENAME>transaction.c</FILENAME>
+        <LINE>25</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
+        <FILENAME>transaction.c</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
+        <FILENAME>transaction.c</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>1</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
         <FILENAME>transaction.c</FILENAME>
         <LINE>31</LINE>
-        <COLUMN>9</COLUMN>
+        <COLUMN>1</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
         <FILENAME>transaction.c</FILENAME>
-        <LINE>34</LINE>
-        <COLUMN>9</COLUMN>
+        <LINE>32</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
+        <FILENAME>transaction.c</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>1</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
         <FILENAME>transaction.c</FILENAME>
         <LINE>36</LINE>
-        <COLUMN>9</COLUMN>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
+        <FILENAME>transaction.c</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>1</COLUMN>
         <KEYEVENT>
           <ID>2</ID>
-          <KIND>branch</KIND>
-          <IMPORTANCE>Full</IMPORTANCE>
-          <MESSAGE>Skip this branch, (assume 'err!=0' is false)</MESSAGE>
-        </KEYEVENT>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>42</LINE>
-        <COLUMN>10</COLUMN>
-        <KEYEVENT>
-          <ID>3</ID>
-          <KIND>branch</KIND>
-          <IMPORTANCE>Full</IMPORTANCE>
-          <MESSAGE>Skip this branch, (assume 'err2!=0' is false)</MESSAGE>
-        </KEYEVENT>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>48</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>49</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>50</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>51</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>53</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>54</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>55</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>57</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>58</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>59</LINE>
-        <COLUMN>1</COLUMN>
-        <KEYEVENT>
-          <ID>4</ID>
           <KIND>declaration</KIND>
           <IMPORTANCE>Full</IMPORTANCE>
           <MESSAGE>'his_username' is an Output from 'scanf_s' (declared at c:\program files (x86)\windows kits\10\include\10.0.22621.0\ucrt\stdio.h:1313)</MESSAGE>
@@ -241,225 +167,19 @@
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
         <FILENAME>transaction.c</FILENAME>
-        <LINE>61</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>63</LINE>
-        <COLUMN>8</COLUMN>
-        <KEYEVENT>
-          <ID>5</ID>
-          <KIND>branch</KIND>
-          <IMPORTANCE>Full</IMPORTANCE>
-          <MESSAGE>Enter this loop, (assume '&lt;branch condition&gt;')</MESSAGE>
-        </KEYEVENT>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>65</LINE>
-        <COLUMN>40</COLUMN>
-        <KEYEVENT>
-          <ID>6</ID>
-          <KIND>branch</KIND>
-          <IMPORTANCE>Full</IMPORTANCE>
-          <MESSAGE>Enter this branch, (assume '&lt;branch condition&gt;')</MESSAGE>
-        </KEYEVENT>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>66</LINE>
-        <COLUMN>3</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>67</LINE>
-        <COLUMN>3</COLUMN>
-        <KEYEVENT>
-          <ID>7</ID>
-          <KIND>usage</KIND>
-          <IMPORTANCE>Full</IMPORTANCE>
-          <MESSAGE>'his_username' is an Input to 'strcpy_s' (declared at c:\program files (x86)\windows kits\10\include\10.0.22621.0\ucrt\string.h:32)</MESSAGE>
-        </KEYEVENT>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>67</LINE>
-        <COLUMN>3</COLUMN>
-        <KEYEVENT>
-          <ID>8</ID>
-          <KIND>usage</KIND>
-          <IMPORTANCE>Essential</IMPORTANCE>
-          <MESSAGE>'his_username' is required to be zero-terminated by a SAL annotation on 'strcpy_s'</MESSAGE>
-        </KEYEVENT>
-      </SFA>
-    </PATH>
-  </DEFECT>
-  <DEFECT>
-    <SFA>
-      <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-      <FILENAME>transaction.c</FILENAME>
-      <LINE>102</LINE>
-      <COLUMN>40</COLUMN>
-    </SFA>
-    <DEFECTCODE>6054</DEFECTCODE>
-    <DESCRIPTION>String 'your_username' might not be zero-terminated.</DESCRIPTION>
-    <FUNCTION>transfermoney</FUNCTION>
-    <DECORATED>transfermoney</DECORATED>
-    <FUNCLINE>14</FUNCLINE>
-    <PROBABILITY>1</PROBABILITY>
-    <RANK>3</RANK>
-    <CATEGORY>
-      <RULECATEGORY>mspft</RULECATEGORY>
-    </CATEGORY>
-    <PATH>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>16</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>19</LINE>
-        <COLUMN>7</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>20</LINE>
-        <COLUMN>7</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>22</LINE>
-        <COLUMN>17</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>23</LINE>
-        <COLUMN>14</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>26</LINE>
-        <COLUMN>6</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>27</LINE>
-        <COLUMN>6</COLUMN>
-        <KEYEVENT>
-          <ID>1</ID>
-          <KIND>declaration</KIND>
-          <IMPORTANCE>Essential</IMPORTANCE>
-          <MESSAGE>This expression may not zero-terminate 'your_username'</MESSAGE>
-        </KEYEVENT>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>31</LINE>
-        <COLUMN>9</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>34</LINE>
-        <COLUMN>9</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>36</LINE>
-        <COLUMN>9</COLUMN>
-        <KEYEVENT>
-          <ID>2</ID>
-          <KIND>branch</KIND>
-          <IMPORTANCE>Full</IMPORTANCE>
-          <MESSAGE>Skip this branch, (assume 'err!=0' is false)</MESSAGE>
-        </KEYEVENT>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>42</LINE>
-        <COLUMN>10</COLUMN>
-        <KEYEVENT>
-          <ID>3</ID>
-          <KIND>branch</KIND>
-          <IMPORTANCE>Full</IMPORTANCE>
-          <MESSAGE>Skip this branch, (assume 'err2!=0' is false)</MESSAGE>
-        </KEYEVENT>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>48</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>49</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>50</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>51</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>53</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
         <LINE>54</LINE>
         <COLUMN>1</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
         <FILENAME>transaction.c</FILENAME>
-        <LINE>55</LINE>
+        <LINE>56</LINE>
         <COLUMN>1</COLUMN>
-        <KEYEVENT>
-          <ID>4</ID>
-          <KIND>declaration</KIND>
-          <IMPORTANCE>Full</IMPORTANCE>
-          <MESSAGE>'your_username' is an Output from 'scanf_s' (declared at c:\program files (x86)\windows kits\10\include\10.0.22621.0\ucrt\stdio.h:1313)</MESSAGE>
-        </KEYEVENT>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
         <FILENAME>transaction.c</FILENAME>
         <LINE>57</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>58</LINE>
         <COLUMN>1</COLUMN>
       </SFA>
       <SFA>
@@ -471,127 +191,67 @@
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
         <FILENAME>transaction.c</FILENAME>
-        <LINE>61</LINE>
-        <COLUMN>1</COLUMN>
+        <LINE>63</LINE>
+        <COLUMN>5</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
         <FILENAME>transaction.c</FILENAME>
-        <LINE>63</LINE>
-        <COLUMN>8</COLUMN>
+        <LINE>64</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
+        <FILENAME>transaction.c</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
+        <FILENAME>transaction.c</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;50')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
+        <FILENAME>transaction.c</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>48</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
+        <FILENAME>transaction.c</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>46</COLUMN>
         <KEYEVENT>
           <ID>5</ID>
-          <KIND>branch</KIND>
+          <KIND>usage</KIND>
           <IMPORTANCE>Full</IMPORTANCE>
-          <MESSAGE>Skip this loop, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+          <MESSAGE>'his_username' is an Input to 'strcmp' (declared at c:\program files (x86)\windows kits\10\include\10.0.22621.0\ucrt\string.h:100)</MESSAGE>
         </KEYEVENT>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
         <FILENAME>transaction.c</FILENAME>
-        <LINE>72</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>74</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>75</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>76</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>79</LINE>
-        <COLUMN>15</COLUMN>
+        <LINE>70</LINE>
+        <COLUMN>46</COLUMN>
         <KEYEVENT>
           <ID>6</ID>
-          <KIND>branch</KIND>
-          <IMPORTANCE>Full</IMPORTANCE>
-          <MESSAGE>Skip this branch, (assume 'u.balance&lt;m.HowMuchSent' is false)</MESSAGE>
-        </KEYEVENT>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>88</LINE>
-        <COLUMN>11</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>90</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>92</LINE>
-        <COLUMN>5</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>93</LINE>
-        <COLUMN>9</COLUMN>
-        <KEYEVENT>
-          <ID>7</ID>
-          <KIND>branch</KIND>
-          <IMPORTANCE>Full</IMPORTANCE>
-          <MESSAGE>Skip this branch, (assume 'err!=0' is false)</MESSAGE>
-        </KEYEVENT>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>99</LINE>
-        <COLUMN>5</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>101</LINE>
-        <COLUMN>8</COLUMN>
-        <KEYEVENT>
-          <ID>8</ID>
-          <KIND>branch</KIND>
-          <IMPORTANCE>Full</IMPORTANCE>
-          <MESSAGE>Enter this loop, (assume '&lt;branch condition&gt;')</MESSAGE>
-        </KEYEVENT>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>102</LINE>
-        <COLUMN>40</COLUMN>
-        <KEYEVENT>
-          <ID>9</ID>
-          <KIND>usage</KIND>
-          <IMPORTANCE>Full</IMPORTANCE>
-          <MESSAGE>'your_username' is an Input to 'strcmp' (declared at c:\program files (x86)\windows kits\10\include\10.0.22621.0\ucrt\string.h:100)</MESSAGE>
-        </KEYEVENT>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
-        <FILENAME>transaction.c</FILENAME>
-        <LINE>102</LINE>
-        <COLUMN>40</COLUMN>
-        <KEYEVENT>
-          <ID>10</ID>
           <KIND>usage</KIND>
           <IMPORTANCE>Essential</IMPORTANCE>
-          <MESSAGE>'your_username' is required to be zero-terminated by a SAL annotation on 'strcmp'</MESSAGE>
+          <MESSAGE>'his_username' is required to be zero-terminated by a SAL annotation on 'strcmp'</MESSAGE>
         </KEYEVENT>
       </SFA>
     </PATH>

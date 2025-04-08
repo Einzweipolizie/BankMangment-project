@@ -4,8 +4,8 @@
     <SFA>
       <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
       <FILENAME>Login.c</FILENAME>
-      <LINE>96</LINE>
-      <COLUMN>35</COLUMN>
+      <LINE>76</LINE>
+      <COLUMN>46</COLUMN>
     </SFA>
     <DEFECTCODE>6054</DEFECTCODE>
     <DESCRIPTION>String 'username' might not be zero-terminated.</DESCRIPTION>
@@ -21,14 +21,8 @@
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
         <FILENAME>Login.c</FILENAME>
-        <LINE>17</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
-        <FILENAME>Login.c</FILENAME>
         <LINE>19</LINE>
-        <COLUMN>7</COLUMN>
+        <COLUMN>1</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
@@ -51,44 +45,56 @@
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
         <FILENAME>Login.c</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
+        <FILENAME>Login.c</FILENAME>
         <LINE>24</LINE>
         <COLUMN>5</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
         <FILENAME>Login.c</FILENAME>
-        <LINE>25</LINE>
-        <COLUMN>5</COLUMN>
+        <LINE>26</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'Users[0].username[0]==0' is false)</MESSAGE>
+        </KEYEVENT>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
         <FILENAME>Login.c</FILENAME>
-        <LINE>27</LINE>
-        <COLUMN>17</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
-        <FILENAME>Login.c</FILENAME>
-        <LINE>29</LINE>
+        <LINE>32</LINE>
         <COLUMN>1</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
         <FILENAME>Login.c</FILENAME>
-        <LINE>31</LINE>
-        <COLUMN>9</COLUMN>
+        <LINE>33</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
+        <FILENAME>Login.c</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>1</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
         <FILENAME>Login.c</FILENAME>
         <LINE>35</LINE>
-        <COLUMN>10</COLUMN>
-        <KEYEVENT>
-          <ID>2</ID>
-          <KIND>branch</KIND>
-          <IMPORTANCE>Full</IMPORTANCE>
-          <MESSAGE>Skip this branch, (assume 'file==(((void *)0))' is false)</MESSAGE>
-        </KEYEVENT>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
+        <FILENAME>Login.c</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>1</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
@@ -99,49 +105,19 @@
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
         <FILENAME>Login.c</FILENAME>
-        <LINE>41</LINE>
+        <LINE>45</LINE>
         <COLUMN>1</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
         <FILENAME>Login.c</FILENAME>
-        <LINE>42</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
-        <FILENAME>Login.c</FILENAME>
-        <LINE>43</LINE>
+        <LINE>46</LINE>
         <COLUMN>1</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
         <FILENAME>Login.c</FILENAME>
         <LINE>47</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
-        <FILENAME>Login.c</FILENAME>
-        <LINE>48</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
-        <FILENAME>Login.c</FILENAME>
-        <LINE>53</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
-        <FILENAME>Login.c</FILENAME>
-        <LINE>54</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
-        <FILENAME>Login.c</FILENAME>
-        <LINE>55</LINE>
         <COLUMN>1</COLUMN>
         <KEYEVENT>
           <ID>3</ID>
@@ -153,43 +129,43 @@
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
         <FILENAME>Login.c</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
+        <FILENAME>Login.c</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
+        <FILENAME>Login.c</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
+        <FILENAME>Login.c</FILENAME>
         <LINE>57</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
-        <FILENAME>Login.c</FILENAME>
-        <LINE>58</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
-        <FILENAME>Login.c</FILENAME>
-        <LINE>60</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
-        <FILENAME>Login.c</FILENAME>
-        <LINE>65</LINE>
         <COLUMN>10</COLUMN>
         <KEYEVENT>
           <ID>4</ID>
           <KIND>branch</KIND>
           <IMPORTANCE>Full</IMPORTANCE>
-          <MESSAGE>Enter this loop, (assume 'i&lt;50')</MESSAGE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;50-1')</MESSAGE>
         </KEYEVENT>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
         <FILENAME>Login.c</FILENAME>
-        <LINE>66</LINE>
+        <LINE>58</LINE>
         <COLUMN>7</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
         <FILENAME>Login.c</FILENAME>
-        <LINE>68</LINE>
+        <LINE>60</LINE>
         <COLUMN>9</COLUMN>
         <KEYEVENT>
           <ID>5</ID>
@@ -201,70 +177,34 @@
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
         <FILENAME>Login.c</FILENAME>
-        <LINE>76</LINE>
+        <LINE>68</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
         <FILENAME>Login.c</FILENAME>
-        <LINE>83</LINE>
-        <COLUMN>1</COLUMN>
+        <LINE>74</LINE>
+        <COLUMN>10</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
         <FILENAME>Login.c</FILENAME>
-        <LINE>85</LINE>
-        <COLUMN>1</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
-        <FILENAME>Login.c</FILENAME>
-        <LINE>88</LINE>
-        <COLUMN>8</COLUMN>
+        <LINE>74</LINE>
+        <COLUMN>27</COLUMN>
         <KEYEVENT>
           <ID>6</ID>
           <KIND>branch</KIND>
           <IMPORTANCE>Full</IMPORTANCE>
-          <MESSAGE>Enter this loop, (assume '&lt;branch condition&gt;')</MESSAGE>
+          <MESSAGE>Enter this loop, (assume 'index&lt;50')</MESSAGE>
         </KEYEVENT>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
         <FILENAME>Login.c</FILENAME>
-        <LINE>91</LINE>
-        <COLUMN>2</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
-        <FILENAME>Login.c</FILENAME>
-        <LINE>92</LINE>
-        <COLUMN>2</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
-        <FILENAME>Login.c</FILENAME>
-        <LINE>93</LINE>
-        <COLUMN>2</COLUMN>
+        <LINE>76</LINE>
+        <COLUMN>46</COLUMN>
         <KEYEVENT>
           <ID>7</ID>
-          <KIND>declaration</KIND>
-          <IMPORTANCE>Full</IMPORTANCE>
-          <MESSAGE>'username' is an Output from 'printf' (declared at c:\program files (x86)\windows kits\10\include\10.0.22621.0\ucrt\stdio.h:950)</MESSAGE>
-        </KEYEVENT>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
-        <FILENAME>Login.c</FILENAME>
-        <LINE>94</LINE>
-        <COLUMN>2</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
-        <FILENAME>Login.c</FILENAME>
-        <LINE>96</LINE>
-        <COLUMN>35</COLUMN>
-        <KEYEVENT>
-          <ID>8</ID>
           <KIND>usage</KIND>
           <IMPORTANCE>Full</IMPORTANCE>
           <MESSAGE>'username' is an Input to 'strcmp' (declared at c:\program files (x86)\windows kits\10\include\10.0.22621.0\ucrt\string.h:100)</MESSAGE>
@@ -273,10 +213,10 @@
       <SFA>
         <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
         <FILENAME>Login.c</FILENAME>
-        <LINE>96</LINE>
-        <COLUMN>35</COLUMN>
+        <LINE>76</LINE>
+        <COLUMN>46</COLUMN>
         <KEYEVENT>
-          <ID>9</ID>
+          <ID>8</ID>
           <KIND>usage</KIND>
           <IMPORTANCE>Essential</IMPORTANCE>
           <MESSAGE>'username' is required to be zero-terminated by a SAL annotation on 'strcmp'</MESSAGE>
@@ -288,14 +228,14 @@
     <SFA>
       <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\login\</FILEPATH>
       <FILENAME>Login.c</FILENAME>
-      <LINE>130</LINE>
+      <LINE>109</LINE>
       <COLUMN>1</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
     <DESCRIPTION>Return value ignored: 'getchar'.</DESCRIPTION>
     <FUNCTION>loginsu</FUNCTION>
     <DECORATED>loginsu</DECORATED>
-    <FUNCLINE>118</FUNCLINE>
+    <FUNCLINE>97</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
 </DEFECTS>
