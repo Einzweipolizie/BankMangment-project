@@ -15,6 +15,7 @@ void acount_created();
 //TESTS
 void TestFileWrite();
 
-//Hash map
+//Hash map and deleting
 void LoadToArray();
 void LoadToFile();
+void DeleteUser(); // do i need to add char username[])?

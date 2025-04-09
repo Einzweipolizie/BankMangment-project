@@ -111,17 +111,33 @@ void LoadToFile() {
 
 }
 
+
+
+
 void DeleteUser(char username[]) {
 
 	int UserIndex = -1;
 	for (int i = 0; i < userDB.num_users; i++) {
 		if (strcmp(userDB.users[i].username, username) == 0) {
+			printf("User found at index %d\n", i);
+			Sleep(5000);
 			UserIndex = i;
 			break;
+
 		}
 	}
+	char usernmae[MAX];
 
-	if (UserIndex = -1) {
+	//printf("GIVE ME USERNMAE YOU WANT TO DELETE");
+	//scanf_s("%s", usernmae, sizeof(usernmae));
+	for (int index = 0; index < MAX; index++) {
+		if (strcmp(username, Users[index].username) == 0);
+		UserIndex = index;
+	}
+
+
+
+	if (UserIndex == -1) {
 		printf("the user wasnt find );\n");
 		return;
 	}
@@ -137,16 +153,15 @@ void DeleteUser(char username[]) {
 	int i = 0;
 
 	while (i < transDB.num_transactions) {
-		if (strcmp(transDB.transactions[i].his_username, username) == 0 || (strcmp(transDB.transactions[i].your_username, username))) {
+		if (strcmp(transDB.transactions[i].his_username, username) == 0 ||
+			(strcmp(transDB.transactions[i].your_username, username) == 0)) {
 
 			for (int j = i; j < transDB.num_transactions - 1; j++) {
 				transDB.transactions[j] = transDB.transactions[j + 1];
 			}
 			transDB.num_transactions--;
-
 		}
 		else {
-
 			i++;
 		}
 

@@ -1,8 +1,8 @@
-// Its a file showing the Missions i need to do and if i have problems or idies for upgrading i write it here:
+// Its a file showing the Missions i need to do and if i have problems or ideas for upgrading i write it here:
 
 // ADDING:
 // need to give an option to give your acount to add some money
-// 
+// need to do tests to DeleteUser() function
 
 
 //what to fix:

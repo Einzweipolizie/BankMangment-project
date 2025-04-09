@@ -88,6 +88,8 @@ void MenuChose(char username[]) {
 		break;
 	case 4:
 		DeleteUser(username);
+		LoadToFile();
+		exit(0);
 		break;
 	case 5:
 		exit(0);
