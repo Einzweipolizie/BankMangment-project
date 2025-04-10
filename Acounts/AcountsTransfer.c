@@ -25,7 +25,9 @@ void LoadToArray() {
 
 	size_t ReadCount = fread(Users, sizeof(struct UserInfo), MAX, file); // Users is struckt of arrays // i changed MAX with num_users
 
-	num.num_users = ReadCount;
+	userDB.num_users = ReadCount;
+
+
 
 	if (ReadCount == 0) {
 		printf("No users read from the file\n");
@@ -55,7 +57,7 @@ void LoadToArray() {
 		printf("%zu data of users transactions was loaded\n", ReadCount_mon);
 	}
 
-	Sleep(700);
+	Sleep(800);
 
 	fclose(MoneyOpertions);
 
@@ -74,20 +76,20 @@ void LoadToFile() {
 		return;
 	}
 
-	size_t written = (fwrite(Users, sizeof(struct UserInfo), num.num_users, file)); // i changed MAX with num_users
+	size_t written = (fwrite(Users, sizeof(struct UserInfo), userDB.num_users, file)); // i changed MAX with num_users
 
-	if (written != num.num_users) {
-		printf("Error: Only %zu out of %d users written.\n", written, num.num_users);
+	if (written != userDB.num_users) {
+		printf("Error: Only %zu out of %d users written.\n", written, userDB.num_users);
 	}
 	else {
 
-		printf("All %d users saved successfully.\n", num.num_users);
+		printf("All %d users saved successfully.\n", userDB.num_users);
 	}
 
 
 	fclose(file);
 	printf("Users successfully written to file.\n");
-	Sleep(2000);
+	Sleep(300);
 
 	FILE* MoneyOpertions;
 
@@ -98,12 +100,12 @@ void LoadToFile() {
 		return;
 	}
 
-	size_t written_mon = (fwrite(Mon, sizeof(struct Money), num.num_users, MoneyOpertions) );
-	if (written_mon != num.num_users) {
-		printf("Error: Only %zu out of %d users written.\n", written_mon, num.num_users);
+	size_t written_mon = (fwrite(Mon, sizeof(struct Money), userDB.num_users, MoneyOpertions) );
+	if (written_mon != userDB.num_users) {
+		printf("Error: Only %zu out of %d users written.\n", written_mon, userDB.num_users);
 	}
 	else {
-		printf("All %d users saved successfully.\n", num.num_users);
+		printf("All %d users saved successfully.\n", userDB.num_users);
 	}
 
 	fclose(MoneyOpertions);
@@ -117,22 +119,25 @@ void LoadToFile() {
 void DeleteUser(char username[]) {
 
 	int UserIndex = -1;
-	for (int i = 0; i < userDB.num_users; i++) {
-		if (strcmp(userDB.users[i].username, username) == 0) {
-			printf("User found at index %d\n", i);
-			Sleep(5000);
-			UserIndex = i;
-			break;
+	//for (int i = 0; i < userDB.num_users; i++) {
+	//	if (strcmp(userDB.users[i].username, username) == 0) {
+	//		printf("User found at index %d\n", i);
+	//		Sleep(5000);
+	//		UserIndex = i;
+	//		break;
 
-		}
-	}
+	//	}
+	//}
 	char usernmae[MAX];
 
-	//printf("GIVE ME USERNMAE YOU WANT TO DELETE");
-	//scanf_s("%s", usernmae, sizeof(usernmae));
-	for (int index = 0; index < MAX; index++) {
-		if (strcmp(username, Users[index].username) == 0);
-		UserIndex = index;
+
+	for (int index = 0; index < userDB.num_users; index++) {
+		if (strcmp(username, Users[index].username) == 0) { //userDB.users[index].username doesnt work idk why
+			UserIndex = index;
+			printf("User found at index %d\n", index);
+			break;
+		}
+
 	}
 
 
@@ -144,7 +149,7 @@ void DeleteUser(char username[]) {
 
 
 	for (int i = UserIndex; i < userDB.num_users - 1; i++) { // shift all users that there higher in the index onle left
-		userDB.users[i] = userDB.users[i + 1]; // was 6 now 5
+		Users[i] = Users[i + 1]; // was 6 now 5
 
 	}
 

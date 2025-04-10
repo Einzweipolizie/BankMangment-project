@@ -1,4 +1,4 @@
 ﻿  AcountsTransfer.c
-C:\Users\PC\source\repos\main\BankMangment\Acounts\AcountsTransfer.c(28,18): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\PC\source\repos\main\BankMangment\Acounts\AcountsTransfer.c(129,7): warning C4101: 'usernmae': unreferenced local variable
+C:\Users\PC\source\repos\main\BankMangment\Acounts\AcountsTransfer.c(28,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\PC\source\repos\main\BankMangment\Acounts\AcountsTransfer.c(131,7): warning C4101: 'usernmae': unreferenced local variable
   BankMangment.vcxproj -> C:\Users\PC\source\repos\main\x64\Debug\BankMangment.exe

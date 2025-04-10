@@ -4,11 +4,6 @@
 #define MAX 50
 
 
-
-
-#define MAX 50
-
-
 struct UserInfo { // add malloc to the size //
     char name[MAX];
     char last_name[MAX];
