@@ -12,4 +12,4 @@
 
 
 // WHAT TO DO NOW!!:
-// 
+// store transactions

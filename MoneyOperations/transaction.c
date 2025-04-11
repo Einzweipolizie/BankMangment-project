@@ -78,7 +78,15 @@ void transfermoney(char SenderUsername[]) { //you can do test whne writin detali
 		return;
 	}
 
-
+	if (Users[SenderIndex].balance < TheAmountYouWantToSend) {
+		gotoxy(0, 26);
+		printf("there is infunient funds in your acount ): (poor)\n");
+		printf("press Enter if you want to continue");
+		getchar();
+		display(SenderUsername);
+		MenuChose(SenderUsername);
+		return;
+	}
 
 	if (Users[SenderIndex].balance >= TheAmountYouWantToSend) {
 		Users[SenderIndex].balance -= TheAmountYouWantToSend;
@@ -114,13 +122,13 @@ void transfermoney(char SenderUsername[]) { //you can do test whne writin detali
 	gotoxy(33, 40);
 	printf("AMOUNT SUCCESSFULLY TRANSFERRED....\n");
 	printf("Your balance now is: %f\n", Users[SenderIndex].balance); // will it work becuse index is in for loop?
-	printf("press enter if you want to continue");
+	printf("press Enter if you want to continue");
 	getchar();
 
 
 	LoadToFile();
 	
-	display(SenderUsername); // not done
+	display(SenderUsername); 
 	MenuChose(SenderUsername);
 
 }

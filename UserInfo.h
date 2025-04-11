@@ -32,9 +32,10 @@ struct Money {
     char his_username[MAX];
     char your_username[MAX];
     float amount;
-};
+    time_t timestam; // its when it happened
+}; typedef Transaction;
 
-struct Money Mon[MAX]; // hashmap for Moeny struct
+Transaction Mon[MAX]; // hashmap for Moeny struct
 
 struct TransactionDatabase {
     struct Money transactions[MAX];
