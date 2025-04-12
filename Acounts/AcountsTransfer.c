@@ -46,15 +46,23 @@ void LoadToArray() {
 		return;
 	}
 
-	// ask nir if i can use 2 ReadCount in ont program
+	size_t ReadCount_trans = fread(transDB.transactions, sizeof(struct Transaction), MAX, MoneyOpertions);
 
-	size_t ReadCount_mon = fread(Mon, sizeof(struct Money), MAX, MoneyOpertions);
+	transDB.num_transactions = ReadCount_trans;
+	fclose(MoneyOpertions);
 
-	if (ReadCount_mon == 0) {
-		printf("no info of money in the file\n");
+	if (ReadCount_trans > 0) {
+		printf("Successfully loaded %zu transactions:\n", ReadCount_trans);
+		for (size_t i = 0; i < ReadCount_trans; i++) {
+			printf("- %s -> %s: %.2f\n",
+				transDB.transactions[i].sender,
+				transDB.transactions[i].receiver,
+				transDB.transactions[i].amount);
+		}
 	}
 	else {
-		printf("%zu data of users transactions was loaded\n", ReadCount_mon);
+		printf("Transaction file exists but contains no valid data\n");
+
 	}
 
 	Sleep(800);
@@ -100,16 +108,15 @@ void LoadToFile() {
 		return;
 	}
 
-	size_t written_mon = (fwrite(Mon, sizeof(struct Money), userDB.num_users, MoneyOpertions) );
-	if (written_mon != userDB.num_users) {
-		printf("Error: Only %zu out of %d users written.\n", written_mon, userDB.num_users);
-	}
-	else {
-		printf("All %d users saved successfully.\n", userDB.num_users);
+	if (fwrite(transDB.transactions, sizeof(Transaction), transDB.num_transactions, MoneyOpertions) == 0) {
+		printf("Users transactions successfully written to file.\n");
 	}
 
+
+
+
 	fclose(MoneyOpertions);
-	printf("Users successfully written to file.\n");
+	printf("Users transactions successfully written to file.\n");
 
 }
 
@@ -119,15 +126,6 @@ void LoadToFile() {
 void DeleteUser(char username[]) {
 
 	int UserIndex = -1;
-	//for (int i = 0; i < userDB.num_users; i++) {
-	//	if (strcmp(userDB.users[i].username, username) == 0) {
-	//		printf("User found at index %d\n", i);
-	//		Sleep(5000);
-	//		UserIndex = i;
-	//		break;
-
-	//	}
-	//}
 	char usernmae[MAX];
 
 
@@ -158,8 +156,8 @@ void DeleteUser(char username[]) {
 	int i = 0;
 
 	while (i < transDB.num_transactions) {
-		if (strcmp(transDB.transactions[i].his_username, username) == 0 ||
-			(strcmp(transDB.transactions[i].your_username, username) == 0)) {
+		if (strcmp(transDB.transactions[i].receiver, username) == 0 || // Reciver instead of his_username
+			(strcmp(transDB.transactions[i].sender, username) == 0)) { //Sender instead of your_username
 
 			for (int j = i; j < transDB.num_transactions - 1; j++) {
 				transDB.transactions[j] = transDB.transactions[j + 1];

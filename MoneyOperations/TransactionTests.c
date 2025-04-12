@@ -34,15 +34,15 @@ void AcountTest() {
 
 	struct UserInfo u1 = { "John", "Doe", "john123", 1995, 5, 15, 100.00f, "password" };
 	struct UserInfo u2 = { "Jane", "Doe", "jane456", 1990, 3, 10, 0, "password123" };
-	struct Money m;
+	struct Transaction m;
 
 
 	fwrite(&u1, sizeof(u1), 1, UserFile);
 	fclose(UserFile);
 	fclose(MoneyFile);
 
-	strcmp(m.your_username, "john123");
-	strcmp(m.his_username, "jane456");
+	strcmp(m.receiver, "john123");
+	strcmp(m.sender, "jane456");
 
 	m.amount = 50; // test 1
 
@@ -62,8 +62,8 @@ void AcountTest() {
 		return;
 	}
 
-	strcmp(m.your_username, "idk_what_user"); //test 3
-	if (strcmp(m.your_username, u1.username) != 0) {
+	strcmp(m.receiver, "idk_what_user"); //test 3
+	if (strcmp(m.receiver, u1.username) != 0) {
 		printf("test 3 passed: there wsa fake name and it didnt agree to it\n");
 	}
 	else {

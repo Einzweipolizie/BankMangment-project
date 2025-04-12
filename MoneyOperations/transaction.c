@@ -95,7 +95,21 @@ void transfermoney(char SenderUsername[]) { //you can do test whne writin detali
 	}
 
 	
+	if (transDB.num_transactions < MAX) {
+		Transaction NewTransaction = {
+			.amount = TheAmountYouWantToSend,
+			.timestamp = time(NULL)
+		};
 
+		strcpy_s(NewTransaction.sender, MAX, SenderUsername);
+		strcpy_s(NewTransaction.receiver, MAX, his_username);
+
+		transDB.transactions[transDB.num_transactions] = NewTransaction;
+		transDB.num_transactions++;
+	}
+	else {
+		printf("Transaction log full! Transfer recorded but transaction not saved.\n");
+	}
 
 	gotoxy(0, 26);
 	printf(

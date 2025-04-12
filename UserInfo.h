@@ -28,18 +28,19 @@ struct UserDatabase  num;
 
 
 
-struct Money {
-    char his_username[MAX];
-    char your_username[MAX];
+typedef struct Transaction {
+    char sender[MAX];        // Lowercase 'sender'
+    char receiver[MAX];      // Correct spelling
     float amount;
-    time_t timestam; // its when it happened
-}; typedef Transaction;
+    time_t timestamp;
+} Transaction;
 
 Transaction Mon[MAX]; // hashmap for Moeny struct
 
 struct TransactionDatabase {
-    struct Money transactions[MAX];
+    //struct Money transactions[MAX];
     int num_transactions; // Tracks valid transactions
+    Transaction transactions[MAX];
 };
 
 struct UserDatabase userDB; // DB = database
