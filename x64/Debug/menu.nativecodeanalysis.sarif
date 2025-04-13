@@ -19,9 +19,9 @@
                   "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/Menu/menu.c"
                 },
                 "region": {
-                  "startLine": 74,
+                  "startLine": 76,
                   "startColumn": 2,
-                  "endLine": 74,
+                  "endLine": 76,
                   "endColumn": 32
                 }
               },
@@ -59,7 +59,7 @@
             "resultFile"
           ],
           "hashes": {
-            "sha-256": "6293b8b968c94bb7d1d7cb883345d283af3c7e52e2ec3559832c71b4e8c21e3b"
+            "sha-256": "ba86875609f2d03e4ba65ea3b0ac682e5e45136738fd646ee2587275cae1d4d5"
           }
         },
         {
@@ -83,7 +83,7 @@
             "uri": "file:///c:/users/pc/source/repos/main/bankmangment/moneyoperations/moenyoperation.h"
           },
           "hashes": {
-            "sha-256": "abfe962144176b72805c3d1e1b259dcef0ce0165604c79de0b4920a846f4cc85"
+            "sha-256": "cbc252663d13605091cb59bfb1cdab9876395c24ff8ed56069fb7d5798be1ffb"
           }
         },
         {
@@ -91,7 +91,7 @@
             "uri": "file:///c:/users/pc/source/repos/main/bankmangment/userinfo.h"
           },
           "hashes": {
-            "sha-256": "f5866ea87e3c8b50e8a7cc366fa8ba24ad4d802f92861a45187202106851b694"
+            "sha-256": "a9de9a0e5417df099d84caf3fc86a8600b9195a7f64833e18e205325fc7443b2"
           }
         },
         {
@@ -99,7 +99,7 @@
             "uri": "file:///c:/users/pc/source/repos/main/bankmangment/acounts/acount.h"
           },
           "hashes": {
-            "sha-256": "d41151ac98ef352f23d66c567818645eb9f98a637298d25c48330888144c9f82"
+            "sha-256": "0f20dea37d9ec75b3a0a85d5045baadfbcdf618bd9590acf8294310bbacc3c8a"
           }
         }
       ]

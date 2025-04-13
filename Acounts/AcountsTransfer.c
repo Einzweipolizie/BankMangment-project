@@ -24,7 +24,7 @@ void LoadToArray() {
 	}
 
 	size_t ReadCount = fread(Users, sizeof(struct UserInfo), MAX, file); // Users is struckt of arrays // i changed MAX with num_users
-
+	userDB.num_users = 0;
 	userDB.num_users = ReadCount;
 
 
@@ -54,18 +54,19 @@ void LoadToArray() {
 	if (ReadCount_trans > 0) {
 		printf("Successfully loaded %zu transactions:\n", ReadCount_trans);
 		for (size_t i = 0; i < ReadCount_trans; i++) {
-			printf("- %s -> %s: %.2f\n",
+			printf("- from user: %s -> to user: %s: the amount that was sent: %.2f\n",
 				transDB.transactions[i].sender,
 				transDB.transactions[i].receiver,
 				transDB.transactions[i].amount);
 		}
+
 	}
 	else {
 		printf("Transaction file exists but contains no valid data\n");
-
 	}
 
-	Sleep(800);
+	
+	Sleep(500);
 
 	fclose(MoneyOpertions);
 

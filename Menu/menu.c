@@ -77,7 +77,7 @@ void MenuChose(char username[]) {
 
 	switch (choice) {
 	case 1:
-		//checkbalance(username); //later
+		checkbalance(username); //later
 		break;
 
 	case 2:

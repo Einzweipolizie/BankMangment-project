@@ -1,0 +1,2 @@
+C:\Users\PC\source\repos\main\x64\Debug\BankMangment.exe.lastcodeanalysissucceeded
+C:\Users\PC\source\repos\main\BankMangment\x64\Debug\NativeCodeAnalysis.read.1.tlog

@@ -3,7 +3,95 @@
   "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
   "runs": [
     {
-      "results": [],
+      "results": [
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'getchar'."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/moneyoperations/checkbalance.c"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/checkbalance.c"
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "checkbalance",
+                  "decoratedName": "checkbalance",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'getchar'."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/moneyoperations/checkbalance.c"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/checkbalance.c"
+                },
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "checkbalance",
+                  "decoratedName": "checkbalance",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'getchar'."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/pc/source/repos/main/bankmangment/moneyoperations/checkbalance.c"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/PC/source/repos/main/BankMangment/MoneyOperations/checkbalance.c"
+                },
+                "region": {
+                  "startLine": 111,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "checkbalance",
+                  "decoratedName": "checkbalance",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "tool": {
         "driver": {
           "name": "PREfast",
@@ -23,10 +111,11 @@
             "uri": "file:///c:/users/pc/source/repos/main/bankmangment/moneyoperations/checkbalance.c"
           },
           "roles": [
-            "analysisTarget"
+            "analysisTarget",
+            "resultFile"
           ],
           "hashes": {
-            "sha-256": "19856595a6f5d4beea3ea4f8add6c1f392330cc8e47b39a37ae93d40ad96dcc0"
+            "sha-256": "5c1be144e86de04437f4377b0c10d2db65470ef5eba986487b0784533c769d0d"
           }
         },
         {
@@ -34,7 +123,7 @@
             "uri": "file:///c:/users/pc/source/repos/main/bankmangment/moneyoperations/moenyoperation.h"
           },
           "hashes": {
-            "sha-256": "abfe962144176b72805c3d1e1b259dcef0ce0165604c79de0b4920a846f4cc85"
+            "sha-256": "cbc252663d13605091cb59bfb1cdab9876395c24ff8ed56069fb7d5798be1ffb"
           }
         },
         {
@@ -50,7 +139,7 @@
             "uri": "file:///c:/users/pc/source/repos/main/bankmangment/userinfo.h"
           },
           "hashes": {
-            "sha-256": "f5866ea87e3c8b50e8a7cc366fa8ba24ad4d802f92861a45187202106851b694"
+            "sha-256": "a9de9a0e5417df099d84caf3fc86a8600b9195a7f64833e18e205325fc7443b2"
           }
         }
       ]

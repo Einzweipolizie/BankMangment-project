@@ -7,9 +7,8 @@
 
 //what to fix:
 // there is prblem in acount creaintg function i need to find where to put getchar becuse i did somthing for now and it need to be fixed
-// need to add LoadToFile at the end of the end of the program so the arrays will be saved into the file (logout,exit etc..)
-// 
+// i dont know why but my userDB have problems for exemple in chek balnce its not working with this need to cheek
+// when you delete transactions you need only what your recive into the acount you saved
 
 
 // WHAT TO DO NOW!!:
-// store transactions

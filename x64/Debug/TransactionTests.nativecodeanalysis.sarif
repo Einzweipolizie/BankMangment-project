@@ -22,7 +22,7 @@
                   "startLine": 44,
                   "startColumn": 2,
                   "endLine": 44,
-                  "endColumn": 26
+                  "endColumn": 21
                 }
               },
               "logicalLocations": [
@@ -53,7 +53,7 @@
                   "startLine": 45,
                   "startColumn": 2,
                   "endLine": 45,
-                  "endColumn": 25
+                  "endColumn": 19
                 }
               },
               "logicalLocations": [
@@ -84,7 +84,7 @@
                   "startLine": 65,
                   "startColumn": 2,
                   "endLine": 65,
-                  "endColumn": 26
+                  "endColumn": 21
                 }
               },
               "logicalLocations": [
@@ -121,7 +121,7 @@
             "resultFile"
           ],
           "hashes": {
-            "sha-256": "bb4b328b9e1cfba69408fe04a3044822ee822f3f6b084e8e636af8ece004544f"
+            "sha-256": "a1697075503b496493f3f440a22e6e6f770b008a695257d84c0cb9058ff1af40"
           }
         },
         {
@@ -129,7 +129,7 @@
             "uri": "file:///c:/users/pc/source/repos/main/bankmangment/moneyoperations/moenyoperation.h"
           },
           "hashes": {
-            "sha-256": "abfe962144176b72805c3d1e1b259dcef0ce0165604c79de0b4920a846f4cc85"
+            "sha-256": "cbc252663d13605091cb59bfb1cdab9876395c24ff8ed56069fb7d5798be1ffb"
           }
         },
         {
@@ -137,7 +137,7 @@
             "uri": "file:///c:/users/pc/source/repos/main/bankmangment/userinfo.h"
           },
           "hashes": {
-            "sha-256": "f5866ea87e3c8b50e8a7cc366fa8ba24ad4d802f92861a45187202106851b694"
+            "sha-256": "a9de9a0e5417df099d84caf3fc86a8600b9195a7f64833e18e205325fc7443b2"
           }
         }
       ]

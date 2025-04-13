@@ -290,7 +290,7 @@
     <SFA>
       <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\Menu\</FILEPATH>
       <FILENAME>menu.c</FILENAME>
-      <LINE>74</LINE>
+      <LINE>76</LINE>
       <COLUMN>1</COLUMN>
     </SFA>
     <DEFECTCODE>6271</DEFECTCODE>
@@ -354,6 +354,45 @@
   </DEFECT><DEFECT>
     <SFA>
       <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
+      <FILENAME>checkbalance.c</FILENAME>
+      <LINE>60</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'getchar'.</DESCRIPTION>
+    <FUNCTION>checkbalance</FUNCTION>
+    <DECORATED>checkbalance</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
+      <FILENAME>checkbalance.c</FILENAME>
+      <LINE>110</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'getchar'.</DESCRIPTION>
+    <FUNCTION>checkbalance</FUNCTION>
+    <DECORATED>checkbalance</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
+      <FILENAME>checkbalance.c</FILENAME>
+      <LINE>111</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'getchar'.</DESCRIPTION>
+    <FUNCTION>checkbalance</FUNCTION>
+    <DECORATED>checkbalance</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
       <FILENAME>transaction.c</FILENAME>
       <LINE>37</LINE>
       <COLUMN>1</COLUMN>
@@ -394,7 +433,20 @@
     <SFA>
       <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
       <FILENAME>transaction.c</FILENAME>
-      <LINE>118</LINE>
+      <LINE>85</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'getchar'.</DESCRIPTION>
+    <FUNCTION>transfermoney</FUNCTION>
+    <DECORATED>transfermoney</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
+      <FILENAME>transaction.c</FILENAME>
+      <LINE>140</LINE>
       <COLUMN>1</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>

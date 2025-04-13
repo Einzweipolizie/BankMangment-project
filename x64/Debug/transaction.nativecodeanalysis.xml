@@ -46,7 +46,21 @@
     <SFA>
       <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
       <FILENAME>transaction.c</FILENAME>
-      <LINE>118</LINE>
+      <LINE>85</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'getchar'.</DESCRIPTION>
+    <FUNCTION>transfermoney</FUNCTION>
+    <DECORATED>transfermoney</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\PC\source\repos\main\BankMangment\MoneyOperations\</FILEPATH>
+      <FILENAME>transaction.c</FILENAME>
+      <LINE>140</LINE>
       <COLUMN>1</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>

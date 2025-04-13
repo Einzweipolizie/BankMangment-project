@@ -26,7 +26,7 @@
             "analysisTarget"
           ],
           "hashes": {
-            "sha-256": "642003825e19a3381b1e344f9e836e26e3994e75d3320e9148aee936f0b4dc2e"
+            "sha-256": "2706dda8a43850c05c4120aa1b25cd18ed7d3c79672b0c846867c6434d307af8"
           }
         },
         {
@@ -34,7 +34,7 @@
             "uri": "file:///c:/users/pc/source/repos/main/bankmangment/acounts/acount.h"
           },
           "hashes": {
-            "sha-256": "d41151ac98ef352f23d66c567818645eb9f98a637298d25c48330888144c9f82"
+            "sha-256": "0f20dea37d9ec75b3a0a85d5045baadfbcdf618bd9590acf8294310bbacc3c8a"
           }
         },
         {
@@ -50,7 +50,7 @@
             "uri": "file:///c:/users/pc/source/repos/main/bankmangment/userinfo.h"
           },
           "hashes": {
-            "sha-256": "f5866ea87e3c8b50e8a7cc366fa8ba24ad4d802f92861a45187202106851b694"
+            "sha-256": "a9de9a0e5417df099d84caf3fc86a8600b9195a7f64833e18e205325fc7443b2"
           }
         }
       ]
